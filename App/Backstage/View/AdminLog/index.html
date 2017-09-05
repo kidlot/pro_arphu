@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>管理员操作日志</title>
+        <link rel="stylesheet" href="__ADMIN_ACEADMIN__/css/ace.css"/>
+    <bootstrapcss />
+</head>
+<body>
+    <!-- #section:basics/面包屑导航 -->
+<include file="Index/breadcrumbs" />
+<!-- /section:basics/面包屑导航 -->
+<br />
+<form class="form-inline" method="GET" id="form" action="{:U('AdminLog/index')}" >
+    <div class="form-group">
+        <label >管理员账号</label>
+        <input class="input-sm form-control" name="name" id="name" value="{$search.name}">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <label >ip</label>
+        <input class="input-sm form-control" name="ip" id="ip"  value="{$search.ip}">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <button type="submit" id="query" class="btn btn-purple btn-sm">
+            <span class="ace-icon fa fa-search icon-on-right bigger-110"></span>
+            搜索
+        </button>
+    </div>
+</form>
+<br />
+<table class="table table-striped table-bordered table-hover table-condensed">
+    <tr>
+        <th width="20%">管理员账号</th>
+        <th width="20%">操作时间</th>
+        <th width="20%">ip</th>
+        <th width="35%">记录</th>
+    </tr>
+    <empty name="data">
+        <tr><td colspan="4" >没有记录</td></tr>
+        <else />
+        <foreach name="data" item="v">
+            <tr>
+                <td>{$v['account']}</td>
+                <td>{$v['time']}</td>
+                <td>{$v['ip']}</td>
+                <td>{$v['log']}</td>
+            </tr>
+        </foreach>
+    </empty>
+</table>
+{$page}
+<bootstrapjs />
+</body>
+</html>
