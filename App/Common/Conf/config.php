@@ -12,17 +12,17 @@ return [
     'VAR_URL_PARAMS' => '', // PATHINFO URL参数变量
     'URL_PATHINFO_DEPR' => '/', //PATHINFO URL分割符
  //************************************缓存设置*********************************
-    'REDIS_HOST'                        => '127.0.0.1',         //redis服务器ip，多台用逗号隔开；读写分离开启时，第一台负责写，其它[随机]负责读；
-    'REDIS_PORT'                        => 6379,
-    'REDIS_DB'                          => 15,
-    'REDIS_RW_SEPARATE'                 => true,                //Redis读写分离 true 开启
-    'DATA_CACHE_TYPE'                   => 'Redis',             //默认动态缓存为Redis
-    'DATA_CACHE_PREFIX'                 => 'data_',              //缓存前缀
-    'DATA_CACHE_TIME'                   => 3600 * 24 * 7,
-    'SESSION_TYPE'                      => 'Redis',
-    'SESSION_PREFIX'                    => 'session_',
-    'REDIS_TIMEOUT'                     => '300',                //超时时间
-    'REDIS_PERSISTENT'                  => false,                 //是否长连接 false=短连接
+//    'REDIS_HOST'                        => '127.0.0.1',         //redis服务器ip，多台用逗号隔开；读写分离开启时，第一台负责写，其它[随机]负责读；
+//    'REDIS_PORT'                        => 6379,
+//    'REDIS_DB'                          => 15,
+//    'REDIS_RW_SEPARATE'                 => true,                //Redis读写分离 true 开启
+//    'DATA_CACHE_TYPE'                   => 'Redis',             //默认动态缓存为Redis
+//    'DATA_CACHE_PREFIX'                 => 'data_',              //缓存前缀
+//    'DATA_CACHE_TIME'                   => 3600 * 24 * 7,
+//    'SESSION_TYPE'                      => 'Redis',
+//    'SESSION_PREFIX'                    => 'session_',
+//    'REDIS_TIMEOUT'                     => '300',                //超时时间
+//    'REDIS_PERSISTENT'                  => false,                 //是否长连接 false=短连接
 //***********************************FTP设置**********************************
     'FTP_CFG' => [
         'host' => '',
