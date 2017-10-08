@@ -21,7 +21,8 @@ define('APP_PATH', __DIR__. DIRECTORY_SEPARATOR . 'App' . DIRECTORY_SEPARATOR);
 define('PUBLIC_PATH', __DIR__. DIRECTORY_SEPARATOR . 'Public' . DIRECTORY_SEPARATOR);
 //定义运行目录
 define('RUNTIME_PATH', PUBLIC_PATH . 'Runtime' . DIRECTORY_SEPARATOR);
-
+// 默认绑定Home模块--注意这里
+define('BIND_MODULE', 'Home');
 // 引入ThinkPHP入口文件
 require './Framework/ThinkPHP.php';
 

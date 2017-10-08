@@ -1,5 +1,5 @@
 <?php if (!defined('THINK_PATH')) exit();?>
-<!doctype html>
+   <!doctype html>
 <html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js">
 
 <head>
@@ -133,12 +133,11 @@
     </script>
     <link type="text/css" rel="stylesheet" href="/Public/Default/home/css/mylivechat.css" />
 
-    <!--[if lt IE 9]><script src="http://www.wencomining.com/wp-content/themes/netconstructs/js/html5shiv.min.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="/Public/Default/home/js/html5shiv.min.js"></script><![endif]-->
     <!--[if gte IE 9]> <style type="text/css"> .gradient { filter: none; } </style> <![endif]-->
 
     <!--Theme Version:2.1.1 Plugin Version:2.1.1-->
     <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
-    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="/Public/Default/home/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="/Public/Default/home/css/vc-ie8.min.css" media="screen"><![endif]--><meta name="generator" content="" />
     <link rel="icon" href="http://www.wencomining.com/wp-content/uploads/2017/02/fav.jpg" sizes="32x32" />
     <link rel="icon" href="http://www.wencomining.com/wp-content/uploads/2017/02/fav.jpg" sizes="192x192" />
     <link rel="apple-touch-icon-precomposed" href="http://www.wencomining.com/wp-content/uploads/2017/02/fav.jpg" />
@@ -155,43 +154,6 @@
     </script>
 
     <!-- END GADWP Universal Tracking -->
-
-
-    <script type='text/javascript' src='/Public/Default/home/js/bootstrap.min.js?ver=4.7.6'></script>
-    <script type='text/javascript' src='/Public/Default/home/js/imagesloaded.min.js?ver=3.2.0'></script>
-    <script type='text/javascript' src='/Public/Default/home/js/owl.carousel.min.js?ver=4.7.6'></script>
-    <script type='text/javascript' src='/Public/Default/home/js/jflickrfeed.min.js?ver=4.7.6'></script>
-    <script type='text/javascript' src='/Public/Default/home/js/isotope.pkgd.min.js?ver=4.7.6'></script>
-    <script type='text/javascript' src='/Public/Default/home/js/customselect.min.js?ver=4.7.6'></script>
-    <script type='text/javascript' src='/Public/Default/home/js/lightgallery-all.min.js?ver=4.7.6'></script>
-    <script type='text/javascript' src='/Public/Default/home/js/placeholders.min.js?ver=4.7.6'></script>
-    <script type='text/javascript' src='/Public/Default/home/js/waypoints.min.js?ver=4.12.1'></script>
-    <script type='text/javascript' src='/Public/Default/home/js/jquery.vide.min.js?ver=4.7.6'></script>
-    <script type='text/javascript' src='/Public/Default/home/js/TweenLite.min.js?ver=4.7.6'></script>
-    <script type='text/javascript'>
-        /* <![CDATA[ */
-        var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Download File":"Download File","Download Video":"Download Video","Play":"Play","Pause":"Pause","Captions/Subtitles":"Captions/Subtitles","None":"None","Time Slider":"Time Slider","Skip back %1 seconds":"Skip back %1 seconds","Video Player":"Video Player","Audio Player":"Audio Player","Volume Slider":"Volume Slider","Mute Toggle":"Mute Toggle","Unmute":"Unmute","Mute":"Mute","Use Up/Down Arrow keys to increase or decrease volume.":"Use Up/Down Arrow keys to increase or decrease volume.","Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds.":"Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds."}};
-        var _wpmejsSettings = {"pluginPath":"/wp-includes/js/mediaelement/"};
-        /* ]]> */
-    </script>
-    <script type='text/javascript' src='/Public/Default/home/js/mediaelement-and-player.min.js?ver=2.22.0'></script>
-
-    <script type='text/javascript' src='/Public/Default/home/js/scripts.js?ver=4.7.6'></script>
-    <script type='text/javascript' src='/Public/Default/home/js/wp-embed.min.js?ver=4.7.6'></script>
-    <script type='text/javascript' src='/Public/Default/home/js/js_composer_front.min.js?ver=4.12.1'></script>
-
-    <!-- [BEGIN] Scripts added via Head-and-Footer-Scripts-Inserter plugin by Arthur Gareginyan. -->
-
-
-
-
-
-
-
-
-
-    <!-- [END] Scripts added via Head-and-Footer-Scripts-Inserter plugin by Arthur Gareginyan. -->
-
 
 
     <!-- [BEGIN] Scripts added via Head-and-Footer-Scripts-Inserter plugin by Arthur Gareginyan. -->
@@ -255,10 +217,10 @@
             <div class="header-right">
                 <nav class="main-navigation"><ul id="navigation" class="menu"><li id='menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="http://www.wencomining.com/mining-equipments/"><span>PRODUCTS</span></a>
                     <ul class="sub-menu">
-                        <li id='menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/conveyor-belts/">Conveyor Belts</a> </li>
-                        <li id='menu-item-4055' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/rubber-sheeting/">Rubber Sheeting</a> </li>
-                        <li id='menu-item-4056' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/wear-solutions/">Wear Solutions</a> </li>
-                        <li id='menu-item-4057' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/mining-hose">Mining Hose</a> </li>
+                        <li id='menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/product/conveyor-belts/">Conveyor Belts</a> </li>
+                        <li id='menu-item-4055' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/product/rubber-sheeting/">Rubber Sheeting</a> </li>
+                        <li id='menu-item-4056' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/product/wear-solutions/">Wear Solutions</a> </li>
+                        <li id='menu-item-4057' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/product/mining-hose">Mining Hose</a> </li>
                     </ul>
                 </li>
                     <li id='menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/mining-projects/"><span>PROJECTS</span></a> </li>
@@ -308,20 +270,8 @@
         </div>
     </header>
 
-
     <!-- main contents -->
     <div id="main_content">
-
-
-
-
-
-
-
-
-
-
-
         <div  class="content_row row vc_row wpb_row vc_row-fluid default-style fullwidth" >
 
             <div class="content_row_wrapper  nopadding fullwidth" >
@@ -1258,41 +1208,41 @@
     </div><!-- / end #main_content -->
 
     <!-- footer -->
-    <footer id="footer" class="clearfix footer" data-footer="fixed_footer">
-        <section class="footer_widgets content_row row clearfix footer border_grid fixed_heights footer_contents fullwidth"><div class="content_row_wrapper fullwidth clearfix"><div id="footer-column-1" class="col col-xs-12 col-sm-4 widgets_holder"><div id="text-2" class="footer_widget widget widget_text"><h5>Wenco Mining Division</h5>			<div class="textwidget"><p>WENCO Mining division aims to provide exceptional service to  its clientele with 24 x 7 support from the team. We improvise the products to meet the clients requirements.<br />
-            Our after sales support/service team stands to monitor the products and it’s performance to improve on cost v/s life benefits. We carry one of the largest stocks in Australia on all our core products and has the potential to supply and service the mining industry in quick turn around time. WENCO Mining is a one stop shop for all the refurbishment requirements </p>
-            <p><a href="http://www.wencomining.com/featured-products/">Featured Products</a> <br />
-                <a href="http://www.wencomining.com/mining-projects/">Projects</a> <br />
-                <a href="http://www.wencomining.com/mining-team/"> Our Team</a> </p>
+<footer id="footer" class="clearfix footer" data-footer="fixed_footer">
+    <section class="footer_widgets content_row row clearfix footer border_grid fixed_heights footer_contents fullwidth"><div class="content_row_wrapper fullwidth clearfix"><div id="footer-column-1" class="col col-xs-12 col-sm-4 widgets_holder"><div id="text-2" class="footer_widget widget widget_text"><h5>Wenco Mining Division</h5>			<div class="textwidget"><p>WENCO Mining division aims to provide exceptional service to  its clientele with 24 x 7 support from the team. We improvise the products to meet the clients requirements.<br />
+        Our after sales support/service team stands to monitor the products and it’s performance to improve on cost v/s life benefits. We carry one of the largest stocks in Australia on all our core products and has the potential to supply and service the mining industry in quick turn around time. WENCO Mining is a one stop shop for all the refurbishment requirements </p>
+        <p><a href="http://www.wencomining.com/featured-products/">Featured Products</a> <br />
+            <a href="http://www.wencomining.com/mining-projects/">Projects</a> <br />
+            <a href="http://www.wencomining.com/mining-team/"> Our Team</a> </p>
+    </div>
+    </div></div><div id="footer-column-2" class="col col-xs-12 col-sm-4 widgets_holder"><div id="text-4" class="footer_widget widget widget_text"><h5>Other Divisions</h5>			<div class="textwidget"><a href="http://wenco.com.au/onshore-offshore/">Onshore & Offshore </a><br>
+        <a href="http://wenco.com.au/heavy-engineering/">Heavy Engineering </a> <br>
+    </div>
+    </div><div id="latest_posts_2-1" class="footer_widget widget widget_latest_posts"><h5>Recent Posts</h5>
+        <div>
+
+            <a class="title" href="http://www.wencomining.com/mining-equipment-suppliers-perth/" title="Mining Equipment Suppliers in Perth" rel="bookmark">Mining Equipment Suppliers in Perth</a>
+            <span class="meta">June 20, 2017</span>
+            <p>Mining Equipment Suppliers in Perth Over the last...</p>
         </div>
-        </div></div><div id="footer-column-2" class="col col-xs-12 col-sm-4 widgets_holder"><div id="text-4" class="footer_widget widget widget_text"><h5>Other Divisions</h5>			<div class="textwidget"><a href="http://wenco.com.au/onshore-offshore/">Onshore & Offshore </a><br>
-            <a href="http://wenco.com.au/heavy-engineering/">Heavy Engineering </a> <br>
+
+        <div>
+
+            <a class="title" href="http://www.wencomining.com/global-export-wenco-rc-adhesive-rubber-cement/" title="Global Export of Wenco RC adhesive ( Rubber Cement )" rel="bookmark">Global Export of Wenco RC adhesive ( Rubber Cement )</a>
+            <span class="meta">May 25, 2017</span>
+            <p>The brand and quality recognition of Wenco RC from...</p>
         </div>
-        </div><div id="latest_posts_2-1" class="footer_widget widget widget_latest_posts"><h5>Recent Posts</h5>
-            <div>
 
-                <a class="title" href="http://www.wencomining.com/mining-equipment-suppliers-perth/" title="Mining Equipment Suppliers in Perth" rel="bookmark">Mining Equipment Suppliers in Perth</a>
-                <span class="meta">June 20, 2017</span>
-                <p>Mining Equipment Suppliers in Perth Over the last...</p>
-            </div>
+        <div>
 
-            <div>
-
-                <a class="title" href="http://www.wencomining.com/global-export-wenco-rc-adhesive-rubber-cement/" title="Global Export of Wenco RC adhesive ( Rubber Cement )" rel="bookmark">Global Export of Wenco RC adhesive ( Rubber Cement )</a>
-                <span class="meta">May 25, 2017</span>
-                <p>The brand and quality recognition of Wenco RC from...</p>
-            </div>
-
-            <div>
-
-                <a class="title" href="http://www.wencomining.com/laboratory-testing-wenco-rex-premium-wenguard/" title="Laboratory Testing of Wenco Rex Premium and Wenguard" rel="bookmark">Laboratory Testing of Wenco Rex Premium and Wenguard</a>
-                <span class="meta">May 20, 2017</span>
-                <p>Wenco Rex Premium (40 Shore A) and Wenguard (60 Sh...</p>
-            </div>
-        </div></div><div id="footer-column-3" class="col col-xs-12 col-sm-4 widgets_holder"><div id="text-5" class="footer_widget widget widget_text"><h5>We are Social</h5>			<div class="textwidget"></div>
-        </div><div id="social_media_icons-1" class="footer_widget widget widget_social_media_icons"><ul class="social_media"><li class="mail"><a class="icon-mail" target="_self" href="mailto:sales@wencomining.com" title="Email"><span>Email</span></a></li><li class="facebook"><a class="icon-facebook" target="_blank" href="https://www.facebook.com/wencomining/" title="Facebook"><span>Facebook</span></a></li><li class="linkedin"><a class="icon-linkedin" target="_blank" href="https://www.linkedin.com/company/wencomining" title="Linkedin"><span>Linkedin</span></a></li></ul></div><div id="contact_info-1" class="footer_widget widget widget_contact_info"><h5>Contact Info</h5><div class="with_icons style-1"><div><span class="icon icon-home"></span><div>1 Ladner street, O’Connor, WA, Australia, 6163</div></div><div><span class="icon icon-phone"></span><div>+61 8 9267 5509</div></div><div><span class="icon icon-mail-1"></span><div><a href="mailto:sales@wencomining.com">sales@wencomining.com</a></div></div></div></div></div></div></section><div class="content_row row clearfix footer_contents footer_info_bar fullwidth"><div class="content_row_wrapper fullwidth clearfix"><div class="col col-sm-12"><div class="copyright ">Copyright © Wenco.</div><ul id="footer-navigation" class="menu"><li id="menu-item-2869" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2869"><a href="#">Terms of Use</a></li>
-        <li id="menu-item-2870" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2870"><a href="#">Privacy Policy</a></li>
-    </ul></div></div></div></footer><!-- / end #footer -->
+            <a class="title" href="http://www.wencomining.com/laboratory-testing-wenco-rex-premium-wenguard/" title="Laboratory Testing of Wenco Rex Premium and Wenguard" rel="bookmark">Laboratory Testing of Wenco Rex Premium and Wenguard</a>
+            <span class="meta">May 20, 2017</span>
+            <p>Wenco Rex Premium (40 Shore A) and Wenguard (60 Sh...</p>
+        </div>
+    </div></div><div id="footer-column-3" class="col col-xs-12 col-sm-4 widgets_holder"><div id="text-5" class="footer_widget widget widget_text"><h5>We are Social</h5>			<div class="textwidget"></div>
+    </div><div id="social_media_icons-1" class="footer_widget widget widget_social_media_icons"><ul class="social_media"><li class="mail"><a class="icon-mail" target="_self" href="mailto:sales@wencomining.com" title="Email"><span>Email</span></a></li><li class="facebook"><a class="icon-facebook" target="_blank" href="https://www.facebook.com/wencomining/" title="Facebook"><span>Facebook</span></a></li><li class="linkedin"><a class="icon-linkedin" target="_blank" href="https://www.linkedin.com/company/wencomining" title="Linkedin"><span>Linkedin</span></a></li></ul></div><div id="contact_info-1" class="footer_widget widget widget_contact_info"><h5>Contact Info</h5><div class="with_icons style-1"><div><span class="icon icon-home"></span><div>1 Ladner street, O’Connor, WA, Australia, 6163</div></div><div><span class="icon icon-phone"></span><div>+61 8 9267 5509</div></div><div><span class="icon icon-mail-1"></span><div><a href="mailto:sales@wencomining.com">sales@wencomining.com</a></div></div></div></div></div></div></section><div class="content_row row clearfix footer_contents footer_info_bar fullwidth"><div class="content_row_wrapper fullwidth clearfix"><div class="col col-sm-12"><div class="copyright ">Copyright © Wenco.</div><ul id="footer-navigation" class="menu"><li id="menu-item-2869" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2869"><a href="#">Terms of Use</a></li>
+    <li id="menu-item-2870" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2870"><a href="#">Privacy Policy</a></li>
+</ul></div></div></div></footer><!-- / end #footer -->
 
 </div><!-- / end #container -->
 
@@ -1324,7 +1274,40 @@
         </div>
     </div>
 </div>
+<script type='text/javascript' src='/Public/Default/home/js/bootstrap.min.js?ver=4.7.6'></script>
+<script type='text/javascript' src='/Public/Default/home/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='/Public/Default/home/js/owl.carousel.min.js?ver=4.7.6'></script>
+<script type='text/javascript' src='/Public/Default/home/js/jflickrfeed.min.js?ver=4.7.6'></script>
+<script type='text/javascript' src='/Public/Default/home/js/isotope.pkgd.min.js?ver=4.7.6'></script>
+<script type='text/javascript' src='/Public/Default/home/js/customselect.min.js?ver=4.7.6'></script>
+<script type='text/javascript' src='/Public/Default/home/js/lightgallery-all.min.js?ver=4.7.6'></script>
+<script type='text/javascript' src='/Public/Default/home/js/placeholders.min.js?ver=4.7.6'></script>
+<script type='text/javascript' src='/Public/Default/home/js/waypoints.min.js?ver=4.12.1'></script>
+<script type='text/javascript' src='/Public/Default/home/js/jquery.vide.min.js?ver=4.7.6'></script>
+<script type='text/javascript' src='/Public/Default/home/js/TweenLite.min.js?ver=4.7.6'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Download File":"Download File","Download Video":"Download Video","Play":"Play","Pause":"Pause","Captions/Subtitles":"Captions/Subtitles","None":"None","Time Slider":"Time Slider","Skip back %1 seconds":"Skip back %1 seconds","Video Player":"Video Player","Audio Player":"Audio Player","Volume Slider":"Volume Slider","Mute Toggle":"Mute Toggle","Unmute":"Unmute","Mute":"Mute","Use Up/Down Arrow keys to increase or decrease volume.":"Use Up/Down Arrow keys to increase or decrease volume.","Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds.":"Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds."}};
+    var _wpmejsSettings = {"pluginPath":"/wp-includes/js/mediaelement/"};
+    /* ]]> */
+</script>
+<script type='text/javascript' src='/Public/Default/home/js/mediaelement-and-player.min.js?ver=2.22.0'></script>
 
+<script type='text/javascript' src='/Public/Default/home/js/scripts.js?ver=4.7.6'></script>
+<script type='text/javascript' src='/Public/Default/home/js/wp-embed.min.js?ver=4.7.6'></script>
+<script type='text/javascript' src='/Public/Default/home/js/js_composer_front.min.js?ver=4.12.1'></script>
+
+<!-- [BEGIN] Scripts added via Head-and-Footer-Scripts-Inserter plugin by Arthur Gareginyan. -->
+
+
+
+
+
+
+
+
+
+<!-- [END] Scripts added via Head-and-Footer-Scripts-Inserter plugin by Arthur Gareginyan. -->
 
 </body>
 </html>

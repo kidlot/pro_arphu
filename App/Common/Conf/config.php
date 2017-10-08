@@ -11,6 +11,11 @@ return [
     'URL_MODEL' => 2, //URL模式
     'VAR_URL_PARAMS' => '', // PATHINFO URL参数变量
     'URL_PATHINFO_DEPR' => '/', //PATHINFO URL分割符
+    'URL_ROUTER_ON' => true, // url路由开关
+    'URL_ROUTE_RULES' =>array(
+        '/^([a-zA-Z0-9-]+)$/'=>'List/html?url=:1',
+        '/^([a-zA-Z0-9-]+)_(\d+)$/'=>'List/html?url=:1&p=:2'
+    ),
  //************************************缓存设置*********************************
 //    'REDIS_HOST'                        => '127.0.0.1',         //redis服务器ip，多台用逗号隔开；读写分离开启时，第一台负责写，其它[随机]负责读；
 //    'REDIS_PORT'                        => 6379,
