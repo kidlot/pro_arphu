@@ -5,19 +5,12 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="alternate" type="application/rss+xml" title="Wenco RSS Feed" href="http://www.wencomining.com/feed/" />
-    <link rel="alternate" type="application/atom+xml" title="Wenco Atom Feed" href="http://www.wencomining.com/feed/atom/" />
-    <link rel="pingback" href="http://www.wencomining.com/xmlrpc.php" />
+    <link rel="alternate" type="application/rss+xml" title="Wenco RSS Feed" href="" />
+    <link rel="alternate" type="application/atom+xml" title="Wenco Atom Feed" href="" />
+
 
 
     <!-- [BEGIN] Scripts added via Head-and-Footer-Scripts-Inserter plugin by Arthur Gareginyan. -->
-
-
-
-
-
-
-
 
 
     <!-- [END] Scripts added via Head-and-Footer-Scripts-Inserter plugin by Arthur Gareginyan. -->
@@ -34,12 +27,12 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Mining Supplies, Mining Companies Perth, Mining in Australia" />
     <meta property="og:description" content="Wenco Pty Ltd is an Leading Mining Companies in Perth, Western Australia and specialized in mining supplies for mining industry with customized solutions for every application" />
-    <meta property="og:url" content="http://www.wencomining.com/" />
+    <meta property="og:url" content="http://www.arphu.com/" />
     <meta property="og:site_name" content="Wenco" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="Wenco Pty Ltd is an Leading Mining Companies in Perth, Western Australia and specialized in mining supplies for mining industry with customized solutions for every application" />
     <meta name="twitter:title" content="Mining Supplies, Mining Companies Perth, Mining in Australia" />
-    <script type='application/ld+json'>{"@context":"http://schema.org","@type":"WebSite","@id":"#website","url":"http://www.wencomining.com/","name":"Wenco","potentialAction":{"@type":"SearchAction","target":"http://www.wencomining.com/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+    <script type='application/ld+json'>{"@context":"http://schema.org","@type":"WebSite","@id":"#website","url":"http://www.arphu.com/","name":"Wenco","potentialAction":{"@type":"SearchAction","target":"http://www.wencomining.com/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
     <!-- / Yoast SEO plugin. -->
 
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
@@ -64,52 +57,46 @@
             padding: 0 !important;
         }
     </style>
-    <link rel='stylesheet' id='formidable-css'  href='http://www.wencomining.com/wp-content/uploads/formidable/css/formidablepro.css?ver=571044' type='text/css' media='all' />
-    <link rel='stylesheet' id='flick-css'  href='http://www.wencomining.com/wp-content/plugins/mailchimp//css/flick/flick.css?ver=4.7.6' type='text/css' media='all' />
-    <link rel='stylesheet' id='mailchimpSF_main_css-css'  href='http://www.wencomining.com/?mcsf_action=main_css&#038;ver=4.7.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='formidable-css'  href='/Public/Default/home/css/formidablepro.css?ver=571044' type='text/css' media='all' />
+    <link rel='stylesheet' id='flick-css'  href='/Public/Default/home/css/flick.css?ver=4.7.6' type='text/css' media='all' />
+
     <!--[if IE]>
-    <link rel='stylesheet' id='mailchimpSF_ie_css-css'  href='http://www.wencomining.com/wp-content/plugins/mailchimp/css/ie.css?ver=4.7.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='mailchimpSF_ie_css-css'  href='/Public/Default/home/css/ie.css?ver=4.7.6' type='text/css' media='all' />
     <![endif]-->
-    <link rel='stylesheet' id='rs-plugin-settings-css'  href='http://www.wencomining.com/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.2.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-plugin-settings-css'  href='/Public/Default/home/css/settings.css?ver=5.2.6' type='text/css' media='all' />
     <style id='rs-plugin-settings-inline-css' type='text/css'>
         #rs-demo-id {}
     </style>
-    <link rel='stylesheet' id='bootstrap-css'  href='http://www.wencomining.com/wp-content/themes/netconstructs/css/layout3/bootstrap.css?ver=4.7.6' type='text/css' media='all' />
-    <link rel='stylesheet' id='theme-style-all-css'  href='http://www.wencomining.com/wp-content/themes/netconstructs/css/layout3/style.css?ver=4.7.6' type='text/css' media='all' />
-    <link rel='stylesheet' id='mediaelement-skin-css'  href='http://www.wencomining.com/wp-content/themes/netconstructs/css/mejs-skin.css?ver=4.7.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-css'  href='/Public/Default/home/css/bootstrap.css?ver=4.7.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='theme-style-all-css'  href='/Public/Default/home/css/style.css?ver=4.7.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='mediaelement-skin-css'  href='/Public/Default/home/css/mejs-skin.css?ver=4.7.6' type='text/css' media='all' />
     <link rel='stylesheet' id='fontello-css'  href='/Public/Default/home/css/fontello.css?ver=4.7.6' type='text/css' media='all' />
-    <link rel='stylesheet' id='jquery-owl-carousel-css'  href='http://www.wencomining.com/wp-content/themes/netconstructs/css/owl-carousel.css?ver=4.7.6' type='text/css' media='all' />
-    <link rel='stylesheet' id='lightgallery-css'  href='http://www.wencomining.com/wp-content/themes/netconstructs/css/lightbox/lightgallery.min.css?ver=4.7.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='jquery-owl-carousel-css'  href='/Public/Default/home/css/owl-carousel.css?ver=4.7.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='lightgallery-css'  href='/Public/Default/home/css/lightgallery.min.css?ver=4.7.6' type='text/css' media='all' />
     <!--[if IE 9]>
-    <link rel='stylesheet' id='theme-ie9-css'  href='http://www.wencomining.com/wp-content/themes/netconstructs/css/ie9.css?ver=4.7.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='theme-ie9-css'  href='/Public/Default/home/css/ie9.css?ver=4.7.6' type='text/css' media='all' />
     <![endif]-->
-    <link rel='stylesheet' id='js_composer_front-css'  href='http://www.wencomining.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=4.12.1' type='text/css' media='all' />
-    <link rel='stylesheet' id='theme-style-css'  href='http://www.wencomining.com/wp-content/themes/netconstructs/style.css?ver=4.7.6' type='text/css' media='all' />
-    <link rel='stylesheet' id='theme-dynamic-css'  href='http://www.wencomining.com/wp-content/uploads/rttheme19/dynamic-style.css?ver=170411075610' type='text/css' media='all' />
+    <link rel='stylesheet' id='js_composer_front-css'  href='/Public/Default/home/css/js_composer.min.css?ver=4.12.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='theme-style-css'  href='/Public/Default/home/css/style.css?ver=4.7.6' type='text/css' media='all' />
+    <link rel='stylesheet' id='theme-dynamic-css'  href='/Public/Default/home/css/dynamic-style.css?ver=170411075610' type='text/css' media='all' />
     <link rel='stylesheet' id='rt-google-fonts-css'  href='//fonts.googleapis.com/css?family=Roboto%3A100%7CSource+Sans+Pro%3A600%7CRoboto+Condensed%3A300&#038;subset=greek%2Cvietnamese&#038;ver=1.0.0' type='text/css' media='all' />
-    <script type='text/javascript' src='http://www.wencomining.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-    <script type='text/javascript' src='http://www.wencomining.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-    <script type='text/javascript' src='http://www.wencomining.com/wp-content/plugins/mailchimp//js/scrollTo.js?ver=1.5.7'></script>
-    <script type='text/javascript' src='http://www.wencomining.com/wp-includes/js/jquery/jquery.form.min.js?ver=3.37.0'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/jquery.js?ver=1.12.4'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/jquery-migrate.min.js?ver=1.4.1'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/scrollTo.js?ver=1.5.7'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/jquery.form.min.js?ver=3.37.0'></script>
     <script type='text/javascript'>
         /* <![CDATA[ */
-        var mailchimpSF = {"ajax_url":"http://www.wencomining.com/"};
+        var mailchimpSF = {"ajax_url":"http://www.arphu.com/"};
         /* ]]> */
     </script>
-    <script type='text/javascript' src='http://www.wencomining.com/wp-content/plugins/mailchimp//js/mailchimp.js?ver=1.5.7'></script>
-    <script type='text/javascript' src='http://www.wencomining.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
-    <script type='text/javascript' src='http://www.wencomining.com/wp-content/plugins/mailchimp//js/datepicker.js?ver=4.7.6'></script>
-    <script type='text/javascript' src='http://www.wencomining.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.2.6'></script>
-    <script type='text/javascript' src='http://www.wencomining.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.2.6'></script>
-    <script type='text/javascript' src='http://www.wencomining.com/wp-content/themes/netconstructs/js/pace.js?ver=4.7.6'></script>
-    <script type='text/javascript' src='http://www.wencomining.com/wp-content/themes/netconstructs/js/modernizr.min.js?ver=4.7.6'></script>
-    <link rel='https://api.w.org/' href='http://www.wencomining.com/wp-json/' />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.wencomining.com/xmlrpc.php?rsd" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.wencomining.com/wp-includes/wlwmanifest.xml" />
-    <meta name="generator" content="WordPress 4.7.6" />
-    <link rel='shortlink' href='http://www.wencomining.com/' />
-    <link rel="alternate" type="application/json+oembed" href="http://www.wencomining.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.wencomining.com%2F" />
-    <link rel="alternate" type="text/xml+oembed" href="http://www.wencomining.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.wencomining.com%2F&#038;format=xml" />
+    <script type='text/javascript' src='/Public/Default/home/js/mailchimp.js?ver=1.5.7'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/core.min.js?ver=1.11.4'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/datepicker.js?ver=4.7.6'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/jquery.themepunch.tools.min.js?ver=5.2.6'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/jquery.themepunch.revolution.min.js?ver=5.2.6'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/pace.js?ver=4.7.6'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/modernizr.min.js?ver=4.7.6'></script>
+    <link rel='shortlink' href='http://www.arphu.com/' />
     <script type="text/javascript">document.documentElement.className += " js";</script>
     <script type="text/javascript">
         jQuery(function($) {
@@ -144,12 +131,14 @@
 
         });
     </script>
-    <link type="text/css" rel="stylesheet" href="http://www.wencomining.com/wp-content/plugins/my-live-chat-for-wp/plugin_files/css/mylivechat.css" />
+    <link type="text/css" rel="stylesheet" href="/Public/Default/home/css/mylivechat.css" />
 
+    <!--[if lt IE 9]><script src="http://www.wencomining.com/wp-content/themes/netconstructs/js/html5shiv.min.js"></script><![endif]-->
+    <!--[if gte IE 9]> <style type="text/css"> .gradient { filter: none; } </style> <![endif]-->
 
     <!--Theme Version:2.1.1 Plugin Version:2.1.1-->
     <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
-    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://www.wencomining.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://www.wencomining.com/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><meta name="generator" content="Powered by Slider Revolution 5.2.6 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="/Public/Default/home/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="/Public/Default/home/css/vc-ie8.min.css" media="screen"><![endif]--><meta name="generator" content="" />
     <link rel="icon" href="http://www.wencomining.com/wp-content/uploads/2017/02/fav.jpg" sizes="32x32" />
     <link rel="icon" href="http://www.wencomining.com/wp-content/uploads/2017/02/fav.jpg" sizes="192x192" />
     <link rel="apple-touch-icon-precomposed" href="http://www.wencomining.com/wp-content/uploads/2017/02/fav.jpg" />
@@ -166,6 +155,43 @@
     </script>
 
     <!-- END GADWP Universal Tracking -->
+
+
+    <script type='text/javascript' src='/Public/Default/home/js/bootstrap.min.js?ver=4.7.6'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/imagesloaded.min.js?ver=3.2.0'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/owl.carousel.min.js?ver=4.7.6'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/jflickrfeed.min.js?ver=4.7.6'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/isotope.pkgd.min.js?ver=4.7.6'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/customselect.min.js?ver=4.7.6'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/lightgallery-all.min.js?ver=4.7.6'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/placeholders.min.js?ver=4.7.6'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/waypoints.min.js?ver=4.12.1'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/jquery.vide.min.js?ver=4.7.6'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/TweenLite.min.js?ver=4.7.6'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Download File":"Download File","Download Video":"Download Video","Play":"Play","Pause":"Pause","Captions/Subtitles":"Captions/Subtitles","None":"None","Time Slider":"Time Slider","Skip back %1 seconds":"Skip back %1 seconds","Video Player":"Video Player","Audio Player":"Audio Player","Volume Slider":"Volume Slider","Mute Toggle":"Mute Toggle","Unmute":"Unmute","Mute":"Mute","Use Up/Down Arrow keys to increase or decrease volume.":"Use Up/Down Arrow keys to increase or decrease volume.","Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds.":"Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds."}};
+        var _wpmejsSettings = {"pluginPath":"/wp-includes/js/mediaelement/"};
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='/Public/Default/home/js/mediaelement-and-player.min.js?ver=2.22.0'></script>
+
+    <script type='text/javascript' src='/Public/Default/home/js/scripts.js?ver=4.7.6'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/wp-embed.min.js?ver=4.7.6'></script>
+    <script type='text/javascript' src='/Public/Default/home/js/js_composer_front.min.js?ver=4.12.1'></script>
+
+    <!-- [BEGIN] Scripts added via Head-and-Footer-Scripts-Inserter plugin by Arthur Gareginyan. -->
+
+
+
+
+
+
+
+
+
+    <!-- [END] Scripts added via Head-and-Footer-Scripts-Inserter plugin by Arthur Gareginyan. -->
+
 
 
     <!-- [BEGIN] Scripts added via Head-and-Footer-Scripts-Inserter plugin by Arthur Gareginyan. -->
@@ -1298,44 +1324,7 @@
         </div>
     </div>
 </div>
-<script type='text/javascript' src='http://www.wencomining.com/wp-content/themes/netconstructs/js/bootstrap.min.js?ver=4.7.6'></script>
-<script type='text/javascript' src='http://www.wencomining.com/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
-<script type='text/javascript' src='http://www.wencomining.com/wp-content/themes/netconstructs/js/owl.carousel.min.js?ver=4.7.6'></script>
-<script type='text/javascript' src='http://www.wencomining.com/wp-content/themes/netconstructs/js/jflickrfeed.min.js?ver=4.7.6'></script>
-<script type='text/javascript' src='http://www.wencomining.com/wp-content/themes/netconstructs/js/isotope.pkgd.min.js?ver=4.7.6'></script>
-<script type='text/javascript' src='http://www.wencomining.com/wp-content/themes/netconstructs/js/customselect.min.js?ver=4.7.6'></script>
-<script type='text/javascript' src='http://www.wencomining.com/wp-content/themes/netconstructs/js/lightgallery-all.min.js?ver=4.7.6'></script>
-<script type='text/javascript' src='http://www.wencomining.com/wp-content/themes/netconstructs/js/placeholders.min.js?ver=4.7.6'></script>
-<script type='text/javascript' src='http://www.wencomining.com/wp-content/plugins/js_composer/assets/lib/waypoints/waypoints.min.js?ver=4.12.1'></script>
-<script type='text/javascript' src='http://www.wencomining.com/wp-content/themes/netconstructs/js/jquery.vide.min.js?ver=4.7.6'></script>
-<script type='text/javascript' src='http://www.wencomining.com/wp-content/themes/netconstructs/js/TweenLite.min.js?ver=4.7.6'></script>
-<script type='text/javascript'>
-    /* <![CDATA[ */
-    var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Download File":"Download File","Download Video":"Download Video","Play":"Play","Pause":"Pause","Captions/Subtitles":"Captions/Subtitles","None":"None","Time Slider":"Time Slider","Skip back %1 seconds":"Skip back %1 seconds","Video Player":"Video Player","Audio Player":"Audio Player","Volume Slider":"Volume Slider","Mute Toggle":"Mute Toggle","Unmute":"Unmute","Mute":"Mute","Use Up/Down Arrow keys to increase or decrease volume.":"Use Up/Down Arrow keys to increase or decrease volume.","Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds.":"Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds."}};
-    var _wpmejsSettings = {"pluginPath":"/wp-includes/js/mediaelement/"};
-    /* ]]> */
-</script>
-<script type='text/javascript' src='http://www.wencomining.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.22.0'></script>
-<script type='text/javascript'>
-    /* <![CDATA[ */
-    var rt_theme_params = {"ajax_url":"http://www.wencomining.com/wp-admin/admin-ajax.php","rttheme_template_dir":"http://www.wencomining.com/wp-content/themes/netconstructs","popup_blocker_message":"Please disable your pop-up blocker and click the "Open" link again.","wpml_lang":null,"theme_slug":"rttheme19","home_url":"http://www.wencomining.com","page_loading":"1","page_leaving":"1"};
-    /* ]]> */
-</script>
-<script type='text/javascript' src='http://www.wencomining.com/wp-content/themes/netconstructs/js/layout3/scripts.js?ver=4.7.6'></script>
-<script type='text/javascript' src='http://www.wencomining.com/wp-includes/js/wp-embed.min.js?ver=4.7.6'></script>
-<script type='text/javascript' src='http://www.wencomining.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=4.12.1'></script>
 
-<!-- [BEGIN] Scripts added via Head-and-Footer-Scripts-Inserter plugin by Arthur Gareginyan. -->
-
-
-
-
-
-
-
-
-
-<!-- [END] Scripts added via Head-and-Footer-Scripts-Inserter plugin by Arthur Gareginyan. -->
 
 </body>
 </html>

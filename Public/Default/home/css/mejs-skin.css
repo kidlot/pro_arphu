@@ -1,0 +1,1085 @@
+/* ------------------------------------------------------------------------ */
+/* RESPONSIVE HACKS FOR RT-19
+/* ------------------------------------------------------------------------ */
+.rt-hosted-media.mejs-wrapper video, .rt-hosted-media.mejs-wrapper audio, .rt-hosted-media .mejs-container, .rt-hosted-media .mejs-overlay {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.rt-hosted-media .mejs-poster{
+    max-width: 100% !important;
+    width: 100% !important;
+    height: 100% !important;    
+    background-size: cover;
+}  
+
+.rt-hosted-media .mejs-container:not(.mejs-container-fullscreen) .mejs-controls{
+    visibility: visible !important;
+    display: block !important;
+    padding: 0 10px;
+    opacity: 1 !important;
+}
+
+.col-sm-2 .rt-hosted-media .mejs-duration-container,.col-sm-2 .rt-hosted-media .mejs-currenttime-container, .col-sm-2 .rt-hosted-media .mejs-horizontal-volume-slider,
+.col-sm-1 .rt-hosted-media .mejs-duration-container,.col-sm-1 .rt-hosted-media .mejs-currenttime-container, .col-sm-1 .rt-hosted-media .mejs-horizontal-volume-slider
+{
+    display: none !important;
+}
+
+.col-sm-3 .rt-hosted-media .mejs-duration-container, .col-sm-3 .rt-hosted-media .mejs-horizontal-volume-slider,
+.col-sm-4 .rt-hosted-media .mejs-duration-container, .col-sm-4 .rt-hosted-media .mejs-horizontal-volume-slider
+{
+    display: none !important;
+}
+
+.rt-hosted-media .mejs-offscreen{
+    display: none !important;
+}
+
+.rt-hosted-media .mejs-controls .mejs-time-rail a, .rt-hosted-media .mejs-controls a
+{
+    /* structure */
+    display: block;
+
+    /* theme */
+    cursor: pointer;
+}
+
+/*
+
+plugin website : http://mediaelementjs.com/
+
+*/
+
+/* ------------------------------------------------------------------------ */
+/* $CONTENTS
+/* ------------------------------------------------------------------------ */
+
+/*
+
+    01. $GENERALS
+
+            1.1. $FULLSCREEN MODE
+            1.2. $EMBEDED VIDEO MODE
+            1.3. $MISC
+
+    02. $MEDIAELEMENT CONTAINER
+
+            2.1. $INNER CONTAINER
+
+                    2.1.1. $VIDEO WRAPPER 
+
+                    2.1.2. $OVERLAYS ( POSTER ) WRAPPER 
+
+                                2.1.2.1 $POSTER
+                                2.1.2.2 $LOADER
+                                2.1.2.3 $OVERLAY PLAY
+
+                    2.1.3. $CONTROLS CONTAINER 
+
+                                2.1.3.1 $PLAY / PAUSE / STOP
+                                2.1.3.2 $CURRENT TIME
+                                2.1.3.3 $TIME RAIL
+                                2.1.3.4 $TOTAL TIME
+                                2.1.3.5 $VOLUME
+                                2.1.3.6 $SOURCECHOOSER
+                                2.1.3.7 $FULLSCREEN
+
+                    2.1.4. $CLEARER
+
+*/
+
+/* ------------------------------------------------------------------------ */
+/* $GENERALS
+/* ------------------------------------------------------------------------ */
+
+/* replace the controls bar height */
+.rt-hosted-media.mejs-wrapper { padding-bottom: 48px; }
+
+.rt-hosted-media .mejs-container *
+{
+
+    /* structure */
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+}
+
+.rt-hosted-media .mejs-container ul { list-style: none; }
+
+/* ------------------------------------------ */
+/* $FULLSCREEN MODE
+/* ------------------------------------------ */
+
+/* hide scrollbars in fullscreen mode
+ * added to html
+ */
+.rt-hosted-media .mejs-fullscreen { overflow: hidden !important; }
+
+/* fullscreen preview */
+.rt-hosted-media .mejs-container-fullscreen 
+{
+
+    /* structure */
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: 1000;
+
+}
+
+/* stretch the video to fill width
+ * the height is relative to the width base on pixel ratio 
+ */
+.rt-hosted-media .mejs-container-fullscreen .mejs-mediaelement,
+.rt-hosted-media .mejs-container-fullscreen video 
+{
+
+    /* structure */
+    width: 100%;
+    height: 100%;
+
+}
+
+/* ------------------------------------------ */
+/* $EMBEDED VIDEO MODE
+/* ------------------------------------------ */
+
+/* make embede videos ( youtube - vimeo ) fill the container width
+ * the height is relative to the width base on pixel ratio 
+ */
+.rt-hosted-media .mejs-embed, .mejs-embed body 
+{
+
+    /* structure */
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* ------------------------------------------ */
+/* $MISC
+/* ------------------------------------------ */
+
+/* added plugins class name */
+.rt-hosted-media .me-plugin { position: absolute; }
+
+/* cannot play error */
+.rt-hosted-media .me-cannotplay {}
+
+    .rt-hosted-media .me-cannotplay a { font-weight: bold; }
+
+    .rt-hosted-media .me-cannotplay span 
+    {
+
+        /* structure */
+        padding: 15px;
+        display: block;
+
+    }
+
+/* ------------------------------------------------------------------------ */
+/* $MEDIAELEMENT CONTAINER
+/* ------------------------------------------------------------------------ */
+
+/* whole wrapper styles */
+.rt-hosted-media .mejs-container 
+{
+
+    /* structure */
+    position: relative;
+    text-align: left;
+    vertical-align: top;
+    height: auto;
+
+    /* font */
+    font-family: Helvetica, Arial;
+
+}
+
+    /* ------------------------------------------ */
+    /* $INNER CONTAINER
+    /* ------------------------------------------ */
+
+    .rt-hosted-media .mejs-inner { position: relative; }
+
+        /* $VIDEO WRAPPER
+        /* ------------------------------ */
+
+        .rt-hosted-media .mejs-mediaelement 
+        {
+
+            /* structure */
+            position: relative;
+            width: 100%;
+
+        }
+
+            /* ===== VIDEO ===== */
+
+            .rt-hosted-media .mejs-mediaelement video { display: block; }
+
+            /* ===== AUDIO ===== */
+
+            .rt-hosted-media .mejs-mediaelement audio { display: block; }
+
+        /* $OVERLAYS ( POSTER ) WRAPPER
+        /* ------------------------------ */
+
+        .rt-hosted-media .mejs-layers 
+        {
+
+            /* structure */
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+
+        }
+
+            .rt-hosted-media .mejs-overlay 
+            {
+                
+                /* structure */
+                position: absolute;
+                width: 100%;
+                height: 100% !important;
+
+            }
+
+            /* ===== $POSTER ===== */
+
+            .rt-hosted-media .mejs-poster 
+            {
+
+                /* structure */
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-size: contain;
+                background-position: 50% 50%;
+                background-repeat: no-repeat;
+
+            }
+
+                :root .mejs-poster img { display: none; }
+
+                .rt-hosted-media .mejs-poster img 
+                {
+
+                    /* structure */
+                    border: 0;
+                    vertical-align: middle;
+
+                }
+
+            /* ===== $LOADER ===== */
+
+            /* center loader
+             * set the background
+             */
+            .rt-hosted-media .mejs-overlay-loading 
+            {
+
+                /* strucure */
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                margin: -30px 0 0 -30px;
+            }
+
+                /* hold the loader icon */
+                .rt-hosted-media .mejs-overlay-loading span 
+                {
+                    
+                    /* structure */
+                    position: relative;
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    background-position: center;
+                    background-repeat: no-repeat;                    
+
+                }
+
+            /* ===== $OVERLAY PLAY ===== */
+
+            .rt-hosted-media .mejs-overlay-play { cursor: pointer; }
+
+                /* center play button
+                 * set the background
+                 */
+                .rt-hosted-media .mejs-overlay-button 
+                {
+                    
+                    /* structure */
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    margin-top: -30px !important;
+                    margin-left: -30px;
+                    background-position: 23px 50%;
+                    background-repeat: no-repeat;                    
+
+                }
+
+                /* change the background position on hover */
+                .rt-hosted-media .mejs-overlay:hover .mejs-overlay-button {  }
+
+
+        /* $CONTROLS CONTAINER
+        /* ------------------------------ */
+
+        .rt-hosted-media .mejs-controls 
+        {
+
+            /* struture */
+            position: absolute;
+            height: 48px;
+            bottom: -48px;
+            width: 100%;
+            padding: 0 18px;
+
+        }
+
+        /* make the controls bar stick at the bottom at fullscreen mode */
+        .rt-hosted-media .mejs-container-fullscreen .mejs-controls {  bottom: 0; }
+
+            .rt-hosted-media .mejs-controls > div, .rt-hosted-media .mejs-controls > a  
+            {
+
+                /* struture */
+                display: block;
+                float: left;
+
+                /* font */
+                font-size: 11px;
+
+            }
+
+            .rt-hosted-media .mejs-controls > div + div { margin-left: 18px; }
+
+            .rt-hosted-media .mejs-button button 
+            {
+                background-color: transparent !important;
+                /* struture */
+                display: block;
+                height: 12px;
+                width: 12px;
+                margin-top: 18px;
+                padding: 0;
+                border: 0;
+                background-repeat: no-repeat;
+
+                /* font */
+                font-size: 0;
+                line-height: 0;
+
+                /* theme */
+                opacity: 0.7;
+                cursor: pointer;
+            }
+
+            /* show the button without opacity when hover */
+            .rt-hosted-media .mejs-button button:hover { opacity: 1; }
+
+            /* ===== $PLAY / PAUSE / STOP ===== */
+
+            .rt-hosted-media .mejs-playpause-button {}
+
+            .rt-hosted-media .mejs-play {} /* Class when playing. */
+
+            .rt-hosted-media .mejs-play {} /* Class when paused. */
+
+            .rt-hosted-media .mejs-stop {} /* Stop button. */
+
+                .rt-hosted-media .mejs-playpause-button button {}
+
+                .rt-hosted-media .mejs-play button  { background-position: 0 0; }
+                .rt-hosted-media .mejs-pause button { background-position: -12px 0; }
+                .rt-hosted-media .mejs-stop button  { background-position: -24px 0; }
+
+            /* ===== $CURRENT TIME ===== */
+
+            .rt-hosted-media .mejs-controls .mejs-time {}
+
+                    /* Individual elements within the time wrapper. */
+                    .rt-hosted-media .mejs-time span 
+                    {
+
+                        /* structure */
+                        display: block;
+                        float: left;
+
+                    }
+
+                    .rt-hosted-media .mejs-time .mejs-currenttime 
+                    {
+
+                        /* font */
+                        line-height: 48px;
+
+                    }
+
+            /* === $LOOP BUTTON === */
+
+            .rt-hosted-media .mejs-controls .mejs-loop-button {}
+
+            .rt-hosted-media .mejs-controls .mejs-loop-off button { background-position: -36px 0; }
+
+            .rt-hosted-media .mejs-controls .mejs-loop-on button { opacity: 1; }
+
+            /* colored loop icon */
+            .rt-hosted-media .mejs-blue .mejs-controls .mejs-loop-on button      { background-position: -36px -12px; }
+            .rt-hosted-media .mejs-green .mejs-controls .mejs-loop-on button     { background-position: -36px -24px; }
+            .rt-hosted-media .mejs-yellow .mejs-controls .mejs-loop-on button    { background-position: -36px -36px; }
+            .rt-hosted-media .mejs-turquoise .mejs-controls .mejs-loop-on button { background-position: -36px -48px; }
+            .rt-hosted-media .mejs-orange .mejs-controls .mejs-loop-on button    { background-position: -36px -60px; }
+
+            /* ===== $TIME RAIL ===== */
+
+            /* time rail */
+            .rt-hosted-media .mejs-controls .mejs-time-rail { margin-left: 10px; }
+
+                /* time rail sub-elements */
+                .rt-hosted-media .mejs-controls .mejs-time-rail span 
+                {
+
+                    /* structure */
+                    display: block;
+
+                    /* theme */
+                    cursor: pointer;
+
+                }
+
+                /* total time */
+                .rt-hosted-media .mejs-controls .mejs-time-rail .mejs-time-total 
+                {
+
+                    /* structure */
+                    position: relative;
+                    margin-top: 23px;
+                    height: 2px;
+
+                }
+
+                .rt-hosted-media .mejs-controls .mejs-time-rail .mejs-time-total:hover
+                {
+
+                    /* structure */
+                    margin-top: 21px;
+                    height: 6px;
+
+                }
+
+                /* ready ( loaded time ) bar */
+                .rt-hosted-media .mejs-controls .mejs-time-rail .mejs-time-loaded 
+                {
+
+                    /* structure */
+                    width: 0;
+                    height: 100%;
+                    position: absolute;
+
+                }
+
+                /* current time bar ( represent watched period ) */
+                .rt-hosted-media .mejs-controls .mejs-time-rail .mejs-time-current 
+                {
+
+                    /* structure */
+                    width: 0;
+                    height: 100%;
+                    position: absolute;
+
+                }
+
+                /* adjust current time */
+                .rt-hosted-media .mejs-controls .mejs-time-rail .mejs-time-handle 
+                {
+
+                    /* structure */
+                    display: none;
+                    position: absolute;
+                    height: 100%;
+                    margin: 0;
+                    width: 10px;
+                    text-align: center;
+
+                    /* theme */
+                    cursor: pointer;
+
+                }
+
+                /* current time tooltip */
+                .rt-hosted-media .mejs-controls .mejs-time-rail .mejs-time-float 
+                {
+
+                    /* structure */
+                    position: absolute;
+                    display: none;
+                    text-align: center;
+                    margin-top: -8px;
+                    -webkit-transform: translate(-50%, -100%);
+                       -moz-transform: translate(-50%, -100%);
+                        -ms-transform: translate(-50%, -100%);
+                         -o-transform: translate(-50%, -100%);
+                            transform: translate(-50%, -100%);
+
+                }
+
+                    /* current time */
+                    .rt-hosted-media .mejs-time-float-current
+                    {
+
+                        /* structure */
+                        padding: 4px;
+
+                        /* font */
+                        line-height: 1em;
+                        
+                    }
+
+                    /* tooltip bottom pointer */
+                    .rt-hosted-media .mejs-controls .mejs-time-rail .mejs-time-float-corner 
+                    {
+
+                        /* structure */
+                        position: absolute;
+                        display: inline-block;
+                        margin-left: -6px;
+                        width: 0;
+                        height: 0;
+                        bottom: -9px;
+                        border: solid 6px;
+
+                        /* font */
+                        line-height: 0;
+
+                    }
+
+            /* ===== $TOTAL TIME ===== */
+
+            .rt-hosted-media .mejs-controls .mejs-duration-container 
+            {
+                
+                /* structure */
+                margin-left: 10px;
+
+                /* font */
+                line-height: 48px;
+
+            }
+
+            /* ===== $VOLUME ===== */
+
+            .rt-hosted-media .mejs-controls .mejs-volume-button {}
+
+                .rt-hosted-media .mejs-controls .mejs-volume-button button
+                {
+
+                    /* structure */
+                    position: relative;
+
+                }
+
+                .rt-hosted-media .mejs-mute button   { background-position: -48px 0; }
+
+                .rt-hosted-media .mejs-unmute button { background-position: -48px -12px; }
+
+            /* horizontal slider */
+            .rt-hosted-media .mejs-controls .mejs-horizontal-volume-slider 
+            {
+
+                /* structure */
+                height: 2px;
+                width: 60px;
+                margin-top: 23px;
+                margin-left: 5px;
+                position: relative;
+
+            }
+
+            .rt-hosted-media .mejs-controls .mejs-horizontal-volume-slider:hover
+            {
+
+                /* structure */
+                height: 6px;
+                margin-top: 21px;
+
+            }
+
+                /* volume total */
+                .rt-hosted-media .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+                /* current volume */
+                .rt-hosted-media .mejs-horizontal-volume-slider .mejs-horizontal-volume-current 
+                {
+
+                    /* structure */
+                    position: absolute;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;
+
+                }
+
+                /* volume handler */
+                .rt-hosted-media .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle { display: none; }
+
+            /* ===== $SOURCECHOOSER ===== */
+
+            .rt-hosted-media .mejs-controls .mejs-sourcechooser-button 
+            { 
+
+                /* structure */
+                position: relative; 
+                height: 48px;
+
+            }
+
+                .rt-hosted-media .mejs-controls .mejs-sourcechooser-button button { background-position: -72px 0; }
+
+                .rt-hosted-media .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector 
+                { 
+
+                    /* structure */
+                    visibility: hidden;
+                    position: absolute;
+                    bottom: 48px;
+                    border-radius: 2px;
+                    overflow: hidden;
+                    right: 50%;
+                    padding-bottom: 6px;
+                    -webkit-transform: translate(50%, 0%);
+                       -moz-transform: translate(50%, 0%);
+                        -ms-transform: translate(50%, 0%);
+                         -o-transform: translate(50%, 0%);
+                            transform: translate(50%, 0%);
+
+                }
+
+                /* sourcechooser menu pointer */
+                .rt-hosted-media .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector:after 
+                {
+
+                    content: '';
+
+                    /* structure */
+                    display: block;
+                    position: absolute;
+                    bottom: -6px;
+                    left: 50%;
+                    margin-left: -6px;
+                    width: 0;
+                    height: 0;
+                    border: 6px solid;
+                    -moz-transform: scale(1.01); /* fixed pixelated triangle edge */
+
+                }
+
+                    .rt-hosted-media .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul 
+                    {
+
+                        /* structure */
+                        display: block;
+                        padding: 2px 2px 0 2px;
+                        border-radius: 2px;
+
+                    }
+
+                        .rt-hosted-media .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li 
+                        {
+
+                            /* structure */
+                            display: block;
+                            overflow: hidden;
+                            text-align: center;
+                            
+                            /* font */
+                            line-height: 1em;
+
+                        }
+
+                            .rt-hosted-media .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input 
+                            {
+
+                                /* structure */
+                                visibility: hidden;
+                                position: absolute;
+                                width: 0;
+                                height: 0;
+                            }
+
+                            .rt-hosted-media .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input:checked + label,
+                            .rt-hosted-media .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li:hover label
+                            {
+
+                                /* theme */
+                                cursor: pointer;
+                            }
+
+                            .rt-hosted-media .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li label 
+                            {
+
+                                /* structure */
+                                margin-bottom: 2px;
+                                padding: 6px;
+                                border-radius: 2px;
+                                display: block;
+                                overflow: hidden;
+                                white-space: nowrap;
+
+                            }
+
+            /* ===== $FULLSCREEN ===== */
+
+            .rt-hosted-media .mejs-controls .mejs-fullscreen-button button { background-position: -84px 0; }
+
+            .rt-hosted-media .mejs-controls .mejs-unfullscreen button { background-position: -84px 0; }
+
+        /* $CLEARER
+        /* ------------------------------ */
+        
+        /* Clears any floated elements at the end of the container */
+        .rt-hosted-media .mejs-clear { clear: both; }
+
+
+
+
+
+
+
+/*
+
+plugin website : http://mediaelementjs.com/
+
+*/
+
+/* ------------------------------------------------------------------------ */
+/* $CONTENTS
+/* ------------------------------------------------------------------------ */
+
+/*
+
+    01. $CONTENTS
+    02. $TRANSPARENT
+    03. $BLACK ( #000 )
+    04. $WHITE ( #FFF )
+    05. $LIGHT GREY ( #A8A8A8 )
+    06. $BLUE ( #70C7F4 )
+    07. $GREEN ( #85C028 )
+    08. $YELLOW ( #F9BA00 )
+    09. $TURQUOISE ( #5BCCCA )
+    10. $ORANGE ( #F39F4B )
+    11. $BACKGROUND IMAGES
+
+*/
+
+/* ------------------------------------------------------------------------ */
+/* $TRANSPARENT
+/* ------------------------------------------------------------------------ */
+
+.rt-hosted-media .mejs-container button 
+
+{ background-color: transparent; }
+
+/* ------------------------------------------------------------------------ */
+/* $BLACK ( #000 )
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------------------ */
+/* $BACKGROUND
+/* ------------------------------------------ */
+
+/* embeded videos like ( youtube - vimeo ) */
+.rt-hosted-media .mejs-embed, .rt-hosted-media .mejs-embed body,
+
+/* main container */
+.rt-hosted-media .mejs-container
+
+{ background-color: #000; }
+
+/* total time */
+.rt-hosted-media .mejs-controls .mejs-time-rail .mejs-time-total,
+
+/* volume total */
+.rt-hosted-media .mejs-horizontal-volume-slider .mejs-horizontal-volume-total
+
+{ background-color: rgba(0, 0, 0, 0.1); }
+
+/* ready ( loaded time ) bar */
+.rt-hosted-media .mejs-controls .mejs-time-rail .mejs-time-loaded 
+
+{ background-color: rgba(0, 0, 0, 0.15); }
+
+/* ------------------------------------------------------------------------ */
+/* $WHITE ( #FFF )
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------------------ */
+/* $BACKGROUND
+/* ------------------------------------------ */
+
+/* big paly button */
+.rt-hosted-media .mejs-overlay-button,
+
+/* loader button */
+.rt-hosted-media .mejs-overlay-loading,
+
+/* controls */
+.rt-hosted-media .mejs-controls,
+
+/* sourcechooser list */
+.rt-hosted-media .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul
+
+{ background-color: #FFF; }
+
+/* ------------------------------------------ */
+/* $COLOR
+/* ------------------------------------------ */
+
+/* error link */
+.rt-hosted-media .me-cannotplay a,
+
+/* tooltip bottom pointer */
+.rt-hosted-media .mejs-controls .mejs-time-rail .mejs-time-float,
+
+/* sourcechooser menu */
+.rt-hosted-media .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input:checked + label,
+.rt-hosted-media .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li:hover label
+
+ { color: #FFF;  }
+
+/* ------------------------------------------ */
+/* $BORDERS
+/* ------------------------------------------ */
+
+/* sourcechooser menu pointer */
+.rt-hosted-media .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector:after
+
+{ border-color: #FFF transparent transparent transparent; } 
+
+/* ------------------------------------------------------------------------ */
+/* $LIGHT GREY ( #A8A8A8 )
+/* ------------------------------------------------------------------------ */
+
+
+/* ------------------------------------------ */
+/* $COLOR
+/* ------------------------------------------ */
+
+/* time */
+.rt-hosted-media .mejs-time span,
+
+/* sourcechooser menu item */
+.rt-hosted-media .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li
+
+{ color: #A8A8A8; }
+
+/* ------------------------------------------------------------------------ */
+/* $BLUE ( #70C7F4 )
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------------------ */
+/* $BACKGROUND
+/* ------------------------------------------ */
+
+/* current time bar ( represent watched period ) */
+.rt-hosted-media.mejs-blue .mejs-controls .mejs-time-rail .mejs-time-current,
+
+/* adjust current time */
+.rt-hosted-media.mejs-blue .mejs-controls .mejs-time-rail .mejs-time-handle,
+
+/* current volume */
+.rt-hosted-media.mejs-blue .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+
+/* timer tooltip */
+.rt-hosted-media.mejs-blue .mejs-controls .mejs-time-rail .mejs-time-float,
+
+/* sourcechooser menu */
+.rt-hosted-media.mejs-blue .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input:checked + label,
+.rt-hosted-media.mejs-blue .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li:hover label
+
+{ background-color: #70C7F4; }
+
+/* ------------------------------------------ */
+/* $BORDERS
+/* ------------------------------------------ */
+
+/* tooltip bottom pointer */
+.rt-hosted-media.mejs-blue .mejs-controls .mejs-time-rail .mejs-time-float-corner 
+
+{  border-color: #70C7F4 transparent transparent transparent; }
+
+/* ------------------------------------------------------------------------ */
+/* $GREEN ( #85C028 )
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------------------ */
+/* $BACKGROUND
+/* ------------------------------------------ */
+
+/* current time bar ( represent watched period ) */
+.rt-hosted-media.mejs-green .mejs-controls .mejs-time-rail .mejs-time-current,
+
+/* adjust current time */
+.rt-hosted-media.mejs-green .mejs-controls .mejs-time-rail .mejs-time-handle,
+
+/* current volume */
+.rt-hosted-media.mejs-green .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+
+/* timer tooltip */
+.rt-hosted-media.mejs-green .mejs-controls .mejs-time-rail .mejs-time-float,
+
+/* sourcechooser menu */
+.rt-hosted-media.mejs-green .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input:checked + label,
+.rt-hosted-media.mejs-green .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li:hover label
+
+{ background-color: #85C028; }
+
+/* ------------------------------------------ */
+/* $BORDERS
+/* ------------------------------------------ */
+
+/* tooltip bottom pointer */
+.rt-hosted-media.mejs-green .mejs-controls .mejs-time-rail .mejs-time-float-corner 
+
+{  border-color: #85C028 transparent transparent transparent; }
+
+/* ------------------------------------------------------------------------ */
+/* $YELLOW ( #F9BA00 )
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------------------ */
+/* $BACKGROUND
+/* ------------------------------------------ */
+
+/* current time bar ( represent watched period ) */
+.rt-hosted-media.mejs-yellow .mejs-controls .mejs-time-rail .mejs-time-current,
+
+/* adjust current time */
+.rt-hosted-media.mejs-yellow .mejs-controls .mejs-time-rail .mejs-time-handle,
+
+/* current volume */
+.rt-hosted-media.mejs-yellow .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+
+/* timer tooltip */
+.rt-hosted-media.mejs-yellow .mejs-controls .mejs-time-rail .mejs-time-float,
+
+/* sourcechooser menu */
+.rt-hosted-media.mejs-yellow .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input:checked + label,
+.rt-hosted-media.mejs-yellow .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li:hover label
+
+{ background-color: #F9BA00; }
+
+/* ------------------------------------------ */
+/* $BORDERS
+/* ------------------------------------------ */
+
+/* tooltip bottom pointer */
+.rt-hosted-media.mejs-yellow .mejs-controls .mejs-time-rail .mejs-time-float-corner 
+
+{  border-color: #F9BA00 transparent transparent transparent; }
+
+/* ------------------------------------------------------------------------ */
+/* $TURQUOISE ( #5BCCCA )
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------------------ */
+/* $BACKGROUND
+/* ------------------------------------------ */
+
+/* current time bar ( represent watched period ) */
+.rt-hosted-media.mejs-turquoise .mejs-controls .mejs-time-rail .mejs-time-current,
+
+/* adjust current time */
+.rt-hosted-media.mejs-turquoise .mejs-controls .mejs-time-rail .mejs-time-handle,
+
+/* current volume */
+.rt-hosted-media.mejs-turquoise .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+
+/* timer tooltip */
+.rt-hosted-media.mejs-turquoise .mejs-controls .mejs-time-rail .mejs-time-float,
+
+/* sourcechooser menu */
+.rt-hosted-media.mejs-turquoise .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input:checked + label,
+.rt-hosted-media.mejs-turquoise .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li:hover label
+
+{ background-color: #5BCCCA; }
+
+/* ------------------------------------------ */
+/* $BORDERS
+/* ------------------------------------------ */
+
+/* tooltip bottom pointer */
+.rt-hosted-media.mejs-turquoise .mejs-controls .mejs-time-rail .mejs-time-float-corner 
+
+{  border-color: #5BCCCA transparent transparent transparent; }
+
+/* ------------------------------------------------------------------------ */
+/* $ORANGE ( #F39F4B )
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------------------ */
+/* $BACKGROUND
+/* ------------------------------------------ */
+
+/* current time bar ( represent watched period ) */
+.rt-hosted-media.mejs-orange .mejs-controls .mejs-time-rail .mejs-time-current,
+
+/* adjust current time */
+.rt-hosted-media.mejs-orange .mejs-controls .mejs-time-rail .mejs-time-handle,
+
+/* current volume */
+.rt-hosted-media.mejs-orange .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,
+
+/* timer tooltip */
+.rt-hosted-media.mejs-orange .mejs-controls .mejs-time-rail .mejs-time-float,
+
+/* sourcechooser menu */
+.rt-hosted-media.mejs-orange .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li input:checked + label,
+.rt-hosted-media.mejs-orange .mejs-controls .mejs-sourcechooser-button .mejs-sourcechooser-selector ul li:hover label
+
+{ background-color: #F39F4B; }
+
+/* ------------------------------------------ */
+/* $BORDERS
+/* ------------------------------------------ */
+
+/* tooltip bottom pointer */
+.rt-hosted-media.mejs-orange .mejs-controls .mejs-time-rail .mejs-time-float-corner 
+
+{  border-color: #F39F4B transparent transparent transparent; }
+
+/* ------------------------------------------------------------------------ */
+/* $BACKGROUND IMAGES
+/* ------------------------------------------------------------------------ */
+
+/* loader button */
+.rt-hosted-media .mejs-overlay-loading span { background-image: url(../images/mediaelement/spinner-grey.gif); background-size: 24px 24px; }
+
+/* big play button */
+.rt-hosted-media .mejs-overlay-button { background-image: url(../images/mediaelement/play-grey.png); background-size: 20px 24px; }
+
+/* controls buttons */
+.rt-hosted-media .mejs-button button { background-image: url(../images/mediaelement/controls-grey.png); background-size: 96px 72px; }
+
+      

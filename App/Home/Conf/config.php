@@ -5,6 +5,7 @@ return [
         '__IMG__' => __ROOT__ . '/Public/Default/home/images',
         '__FONT__' => __ROOT__ . '/Public/Default/home/font',
         '__CSS__' => __ROOT__ . '/Public/Default/home/css',
+        '__JS__' => __ROOT__ . '/Public/Default/home/js',
     ],
     'SESSION_AUTO_START' => false,
 ];
