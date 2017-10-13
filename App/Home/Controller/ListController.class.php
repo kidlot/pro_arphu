@@ -7,7 +7,7 @@ use Think\Controller;
  * 默认首页Controller
  * 显示框架基本信息，具体项目请新建模块
  */
-class ListController extends Controller{
+class ListController extends BaseController{
 
     public function index(){
         $id=I('id',0,'intval');
@@ -29,6 +29,7 @@ class ListController extends Controller{
         }
         $id=$list['id'];
         $table=ucfirst($list['type']);
+
         switch($table){
             case 'Product':
                 $template='photo';
@@ -50,15 +51,19 @@ class ListController extends Controller{
                 $num=C('LIST_DOWNNUM');
                 break;
 
-            case 'Page':
-                $template='page';
+            case 'Contact':
+                $template='contact';
+                break;
+
+            case 'About':
+                $template='about';
                 break;
 
             default:
                 $template='index';
         }
 
-        if($table == 'Page'){
+        if($table == 'Contact'||$table == 'About'){
             //$this->pagelist=recursive(M('List')->field('id,url,pid,name')->where("type = 'page'")->order('sort')->select());
             $list['contents']=$list['contents'];
         }else{

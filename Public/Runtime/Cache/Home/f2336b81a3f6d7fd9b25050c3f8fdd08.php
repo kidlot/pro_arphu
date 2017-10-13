@@ -217,26 +217,21 @@
             <div class="header-right">
                 <nav class="main-navigation"><ul id="navigation" class="menu"><li id='menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="http://www.wencomining.com/mining-equipments/"><span>PRODUCTS</span></a>
                     <ul class="sub-menu">
-                        <li id='menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/product/conveyor-belts/">Conveyor Belts</a> </li>
-                        <li id='menu-item-4055' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/product/rubber-sheeting/">Rubber Sheeting</a> </li>
-                        <li id='menu-item-4056' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/product/wear-solutions/">Wear Solutions</a> </li>
-                        <li id='menu-item-4057' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/product/mining-hose">Mining Hose</a> </li>
-                    </ul>
+                        <?php if(is_array($cates)): $i = 0; $__LIST__ = $cates;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><li id='menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/cate/<?php echo ($v['cate']); ?>"><?php echo ($v['cate']); ?></a> </li><?php endforeach; endif; else: echo "" ;endif; ?>
+                   </ul>
                 </li>
                     <li id='menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/mining-projects/"><span>PROJECTS</span></a> </li>
-                    <li id='menu-item-4067' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/facilities/"><span>FACILITIES</span></a> </li>
-                    <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a  href="#"><span>ABOUT US</span></a>
-                        <ul class="sub-menu">
-                            <li id='menu-item-3676' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/our-company/">Our Company</a> </li>
-                            <li id='menu-item-2903' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/mining-team/">Mining Team</a> </li>
-                            <li id='menu-item-2881' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/contact-us/">Contact Us</a> </li>
-                        </ul>
+                    <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/about-us.html"><span>ABOUT US</span></a>
+
                     </li>
                     <li id='menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/blog/"><span>BLOG</span></a> </li>
+                    <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html"><span>CONTACT US</span></a>
+
+                    </li>
                 </ul></nav>			<div id="tools">
                 <ul>
                     <li><a href="#" class="rt-search-button" title="Search"><span class="icon-search"></span></a></li>
-                    <li><a href="#" class="rt-menu-button"><span></span><span></span><span></span></a></li>
+
                 </ul>
             </div><!-- / end .nav-buttons -->
             </div><!-- / end .header-right -->
