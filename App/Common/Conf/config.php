@@ -14,7 +14,9 @@ return [
     'URL_ROUTER_ON' => true, // url路由开关
     'URL_ROUTE_RULES' =>array(
         '/^([a-zA-Z0-9-]+)$/'=>'List/html?url=:1',
-        '/^([a-zA-Z0-9-]+)_(\d+)$/'=>'List/html?url=:1&p=:2'
+        '/^([a-zA-Z0-9-]+)_(\d+)$/'=>'List/html?url=:1&p=:2',
+        '/^Cate\/([a-zA-Z0-9-]+)$/'=>'Cate/html?url=:1',
+        'product/:url'=>'Product/html',
     ),
  //************************************缓存设置*********************************
 //    'REDIS_HOST'                        => '127.0.0.1',         //redis服务器ip，多台用逗号隔开；读写分离开启时，第一台负责写，其它[随机]负责读；

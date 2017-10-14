@@ -1,5 +1,5 @@
 <?php if (!defined('THINK_PATH')) exit();?>
-   <!doctype html>
+<!doctype html>
 <html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js">
 
 <head>
@@ -215,16 +215,16 @@
 
 
             <div class="header-right">
-                <nav class="main-navigation"><ul id="navigation" class="menu"><li id='menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="/mining-equipments/"><span>PRODUCTS</span></a>
+                <nav class="main-navigation"><ul id="navigation" class="menu"><li id='menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="http://www.wencomining.com/mining-equipments/"><span>PRODUCTS</span></a>
                     <ul class="sub-menu">
                         <?php if(is_array($cates)): $i = 0; $__LIST__ = $cates;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><li id='menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/<?php echo ($v['cate_name']); ?>.html"><?php echo ($v['cate']); ?></a> </li><?php endforeach; endif; else: echo "" ;endif; ?>
                    </ul>
                 </li>
-                    <li id='menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/mining-projects/"><span>PROJECTS</span></a> </li>
+                    <li id='menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/mining-projects/"><span>PROJECTS</span></a> </li>
                     <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/about-us.html"><span>ABOUT US</span></a>
 
                     </li>
-                    <li id='menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/blog/"><span>BLOG</span></a> </li>
+                    <li id='menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/blog/"><span>BLOG</span></a> </li>
                     <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html"><span>CONTACT US</span></a>
 
                     </li>
@@ -243,13 +243,14 @@
                 <nav>
                     <ul id="mobile-navigation" class="mobile-navigation-menu"><li id='mobile-menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="http://www.wencomining.com/mining-equipments/"><span>PRODUCTS</span></a>
                         <ul class="sub-menu">
-                            <li id='mobile-menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/Conveyor-Belt-Vulcanizer.html">Conveyor Belt Vulcanizer</a> </li>
-                            <li id='mobile-menu-item-4055' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/Belt-Repair-Vulcanizer.html">Belt Repair Vulcanizer</a> </li>
-                            <li id='mobile-menu-item-4056' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/Belt-Strip-Machine-Series.html">Belt Strip Machine Series</a> </li>
-                            <li id='mobile-menu-item-4057' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/Conveyor-or-Auxiliary-Devices.html">Conveyor or Auxiliary Devices</a> </li>
+                            <li id='mobile-menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/conveyor-belts/">Conveyor Belts</a> </li>
+                            <li id='mobile-menu-item-4055' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/rubber-sheeting/">Rubber Sheeting</a> </li>
+                            <li id='mobile-menu-item-4056' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/wear-solutions/">Wear Solutions</a> </li>
+                            <li id='mobile-menu-item-4057' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/mining-hose">Mining Hose</a> </li>
                         </ul>
                     </li>
                         <li id='mobile-menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/mining-projects/"><span>PROJECTS</span></a> </li>
+                        <li id='mobile-menu-item-4067' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/facilities/"><span>FACILITIES</span></a> </li>
                         <li id='mobile-menu-item-2871' data-depth='0' class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a  href="#"><span>ABOUT US</span></a>
                             <ul class="sub-menu">
                                 <li id='mobile-menu-item-3676' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/our-company/">Our Company</a> </li>
@@ -257,114 +258,90 @@
                                 <li id='mobile-menu-item-2881' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/contact-us/">Contact Us</a> </li>
                             </ul>
                         </li>
-                        <li id='mobile-menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/blog/"><span>BLOG</span></a> </li>
-                        <li id='mobile-menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html/"><span>CONTACT US</span></a> </li>
+                        <li id='mobile-menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/blog/"><span>BLOG</span></a> </li>
                     </ul>				</nav>
             </div>
 
         </div>
     </header>
 
-    <!-- main contents -->
-   <div id="main_content">
+<!-- main contents -->
+<div id="main_content">
+
+
+    <div class="content_row row sub_page_header fullwidth " style="background-image: url(http://www.wencomining.com/wp-content/uploads/2015/02/bridge.jpg);background-repeat: repeat;background-size: auto auto;background-attachment: scroll;background-color: rgba(255, 255, 255, 0.3);">
+
+        <div class="content_row_wrapper  default" ><div class="col col-sm-12"><div class="breadcrumb"><ol vocab="http://schema.org/" typeof="BreadcrumbList">
+            <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" class="icon-home" href="/"><span property="name">Home</span><meta property="position" content="1"></a> <span class="icon-angle-right"></span> </li>
+            <li property="itemListElement" typeof="ListItem">
+
+                <meta itemprop="name" content="Conveyor Pulleys">
+                <meta itemprop="url" content="http://www.wencomining.com/product-details/conveyor-pulleys/">
+                <span property="name"><?php echo ($cate_name); ?></span>
+                <meta property="position" content="2"></li>
+        </ol>
+        </div><section class="page-title"><h1><?php echo ($cate_name); ?></h1></section></div></div>
+    </div>
+
+    <div  class="content_row default-style no-composer  fullwidth"><div class="content_row_wrapper clearfix "><div class="col col-sm-12 col-xs-12 ">
+
+        <!-- Category Description -->
+        <div class="tax-description clearfix ">
+
+            <p>WENCO Mining supplies quality conveyor belts to its vast client base, by being a Tier 1 supplier who could have input into design and the subsequent manufacture. Besides supplying conveyor belts WENCO Mining can supply to satisfy any requirement a conveyor system may have by providing the market with custom belt lengths, vulcanizing equipment, belt clamps, idlers / rollers, pulley fabrication, lagging etc. WENCO Mining’s capability includes steel cord conveyor, vacuum filter belts and incline belts.</p>
+
+        </div>
+        <div class="rt_divider style-5"></div>
+
+
+        <div id="product-dynamicID-910926" class="product_holder product-showcase clearfix  border_grid fixed_heights" data-column-width="3">
+            <div class="row clearfix">
+                <?php if(is_array($pro_list)): $i = 0; $__LIST__ = $pro_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$p): $mod = ($i % 3 );++$i; if(($mod) == "0"): ?></div>
+        </div>
+        <div id="product-dynamicID-910926" class="product_holder product-showcase clearfix  border_grid fixed_heights" data-column-width="3">
+            <div class="row clearfix"><?php endif; ?>
+                <div class="col product_item_holder col-sm-4  conveyor-belts">
+
+                    <div class="product_item_holder">
+
+                        <div class="featured_image">
+                            <!-- product image -->
+                            <div class="featured_image">
+                                <a href="/product/<?php echo ($p['url']); ?>.html" title="<?php echo ($p['product_name']); ?>" rel="bookmark" class="imgeffect link"><img src="<?php echo ($p['product_pic']); ?>" alt="<?php echo ($p['product_name']); ?>" class="" /></a>
+                            </div>
+                        </div>
 
 
 
 
+                        <div class="product_info">
+
+                            <!-- title-->
+                            <h5 class="clean_heading"><a href="/product/<?php echo ($p['url']); ?>.html" title="<?php echo ($p['product_name']); ?>" rel="bookmark"><?php echo ($p['product_name']); ?></a></h5>
+
+                            <!-- text-->
+
+                            <div class="product_info_footer clearfix"><div class="action_buttons"><a href="/product/<?php echo ($p['url']); ?>.html" title="Conveyor Pulleys" class="details icon-angle-right">Details</a></div></div>
+
+                        </div>
 
 
 
+                    </div>
+                </div><?php endforeach; endif; else: echo "" ;endif; ?>
 
 
+            </div>
 
 
-       <div  class="content_row row vc_row wpb_row vc_row-fluid default-style fullwidth" >
-
-           <div class="content_row_wrapper  fullwidth" >
-               <div class="vc_col-sm-12 wpb_column vc_column_container">
-                   <div class="wpb_wrapper">
-                       <div class="google_map_holder" data-height="300" data-scope="#map-331544" data-bw="yes">
-
-                           <div id="map-331544" class="google_map"></div>
-                           <script type="text/javascript">
-                               /* <![CDATA[ */
-                               // Runs google maps
-                               jQuery(function() {
-                                   jQuery("#map-331544").rt_maps([["Location Title", -33.865143, 151.209900, 4,""],["Location Title", -34.9285, 138.6007, 4,""],["Location Title", -31.9505, 115.8605, 4,""],],15);
-                               });
-                               /* ]]&gt; */
-                           </script>
-
-                       </div>
-                   </div>
-               </div>
-
-           </div>
-       </div>
-
-       <div  class="content_row row vc_row wpb_row vc_row-fluid default-style fullwidth border_grid fixed_heights overlap" >
-
-           <div class="content_row_wrapper  fullwidth" ><div class="vc_col-sm-4 wpb_column vc_column_container">
-               <div class="wpb_wrapper">
-                   <div class="rt_heading_wrapper style-6">
-                       <h5 class="rt_heading  style-6" >Suzhou Office</h5>
-                   </div>
-                   <div  class="with_icons style-3 ">
-
-                       <div  >
-                           <span class="icon-address icon"></span><div class="list-content"><p><span style="font-weight: 400;">No. 38 Shaxi Rd., Lixiang, Tangshi, Yangshe, Zhangjiagang, Suzhou City, Jiangsu, China </span></p>
-                       </div>
-                       </div>
-
-                       <div  >
-                           <span class="icon-phone icon"></span><div class="list-content"><p><span style="font-weight: 400;">+86 17712451616</span></p>
-                       </div>
-                       </div>
-
-                       <div  >
-                           <span class="icon-mail-1 icon"></span><div class="list-content"><p><a href="mailto:info@arphu.com"><span style="font-weight: 400;"> info@arphu.com</span></a></p>
-                       </div>
-                       </div>
-
-                   </div>
-
-               </div>
-           </div>
-
-               <div class="vc_col-sm-4 wpb_column vc_column_container">
-                   <div class="wpb_wrapper">
-                       <div class="rt_heading_wrapper style-6">
-                           <h5 class="rt_heading  style-6" >Colombia</h5>
-                       </div>
-                       <div  class="with_icons style-3 ">
-
-                           <div  >
-                               <span class="icon-address icon"></span><div class="list-content"><p><span style="font-weight: 400;">Adelaide</span></p>
-                           </div>
-                           </div>
-
-                           <div  >
-                               <span class="icon-phone icon"></span><div class="list-content"><p><span style="font-weight: 400;">+57 3014302872</span></p>
-                           </div>
-                           </div>
-
-                           <div  >
-                               <span class="icon-mail-1 icon"></span><div class="list-content"><p><a href="mailto:Nolberto.Maldonado@arphu.com"><span style="font-weight: 400;">Nolberto.Maldonado@arphu.com</span></a></p>
-                           </div>
-                           </div>
-
-                       </div>
-                       <div class="google_map_holder" data-height="300" data-scope="#map-464514" data-bw=""></div>
-                   </div>
-               </div>
+        </div>
+        <div class="paging_wrapper margin-t30 margin-b30"></div>
 
 
-           </div>
-       </div>
-
-   </div><!-- / end #container -->
-
-   <!-- footer -->
+    </div></div></div>
+</div><!-- / end #main_content -->
+<!-- footer -->
 <footer id="footer" class="clearfix footer" data-footer="fixed_footer">
     <section class="footer_widgets content_row row clearfix footer border_grid fixed_heights footer_contents fullwidth"><div class="content_row_wrapper fullwidth clearfix"><div id="footer-column-1" class="col col-xs-12 col-sm-4 widgets_holder"><div id="text-2" class="footer_widget widget widget_text"><h5>Wenco Mining Division</h5>			<div class="textwidget"><p>WENCO Mining division aims to provide exceptional service to  its clientele with 24 x 7 support from the team. We improvise the products to meet the clients requirements.<br />
         Our after sales support/service team stands to monitor the products and it’s performance to improve on cost v/s life benefits. We carry one of the largest stocks in Australia on all our core products and has the potential to supply and service the mining industry in quick turn around time. WENCO Mining is a one stop shop for all the refurbishment requirements </p>

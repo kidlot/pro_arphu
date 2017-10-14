@@ -211,20 +211,20 @@
 
             <!-- logo -->
             <div id="logo" class="site-logo">
-                <a href="http://www.wencomining.com" title="Wenco"><img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" width="290" height="84" class="main_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" /><img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" class="sticky_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" /></a> 			</div><!-- / end #logo -->
+                <a href="/" title="arphu"><img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" width="290" height="84" class="main_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" /><img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" class="sticky_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" /></a> 			</div><!-- / end #logo -->
 
 
             <div class="header-right">
-                <nav class="main-navigation"><ul id="navigation" class="menu"><li id='menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="http://www.wencomining.com/mining-equipments/"><span>PRODUCTS</span></a>
+                <nav class="main-navigation"><ul id="navigation" class="menu"><li id='menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="/mining-equipments/"><span>PRODUCTS</span></a>
                     <ul class="sub-menu">
-                        <?php if(is_array($cates)): $i = 0; $__LIST__ = $cates;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><li id='menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/cate/<?php echo ($v['cate']); ?>"><?php echo ($v['cate']); ?></a> </li><?php endforeach; endif; else: echo "" ;endif; ?>
+                        <?php if(is_array($cates)): $i = 0; $__LIST__ = $cates;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><li id='menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/<?php echo ($v['cate_name']); ?>.html"><?php echo ($v['cate']); ?></a> </li><?php endforeach; endif; else: echo "" ;endif; ?>
                    </ul>
                 </li>
-                    <li id='menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/mining-projects/"><span>PROJECTS</span></a> </li>
+                    <li id='menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/mining-projects/"><span>PROJECTS</span></a> </li>
                     <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/about-us.html"><span>ABOUT US</span></a>
 
                     </li>
-                    <li id='menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/blog/"><span>BLOG</span></a> </li>
+                    <li id='menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/blog/"><span>BLOG</span></a> </li>
                     <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html"><span>CONTACT US</span></a>
 
                     </li>
@@ -243,14 +243,13 @@
                 <nav>
                     <ul id="mobile-navigation" class="mobile-navigation-menu"><li id='mobile-menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="http://www.wencomining.com/mining-equipments/"><span>PRODUCTS</span></a>
                         <ul class="sub-menu">
-                            <li id='mobile-menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/conveyor-belts/">Conveyor Belts</a> </li>
-                            <li id='mobile-menu-item-4055' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/rubber-sheeting/">Rubber Sheeting</a> </li>
-                            <li id='mobile-menu-item-4056' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/wear-solutions/">Wear Solutions</a> </li>
-                            <li id='mobile-menu-item-4057' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/mining-hose">Mining Hose</a> </li>
+                            <li id='mobile-menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/Conveyor-Belt-Vulcanizer.html">Conveyor Belt Vulcanizer</a> </li>
+                            <li id='mobile-menu-item-4055' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/Belt-Repair-Vulcanizer.html">Belt Repair Vulcanizer</a> </li>
+                            <li id='mobile-menu-item-4056' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/Belt-Strip-Machine-Series.html">Belt Strip Machine Series</a> </li>
+                            <li id='mobile-menu-item-4057' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/Conveyor-or-Auxiliary-Devices.html">Conveyor or Auxiliary Devices</a> </li>
                         </ul>
                     </li>
                         <li id='mobile-menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/mining-projects/"><span>PROJECTS</span></a> </li>
-                        <li id='mobile-menu-item-4067' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/facilities/"><span>FACILITIES</span></a> </li>
                         <li id='mobile-menu-item-2871' data-depth='0' class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a  href="#"><span>ABOUT US</span></a>
                             <ul class="sub-menu">
                                 <li id='mobile-menu-item-3676' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/our-company/">Our Company</a> </li>
@@ -258,7 +257,8 @@
                                 <li id='mobile-menu-item-2881' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/contact-us/">Contact Us</a> </li>
                             </ul>
                         </li>
-                        <li id='mobile-menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/blog/"><span>BLOG</span></a> </li>
+                        <li id='mobile-menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/blog/"><span>BLOG</span></a> </li>
+                        <li id='mobile-menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html/"><span>CONTACT US</span></a> </li>
                     </ul>				</nav>
             </div>
 
@@ -356,49 +356,49 @@
 
             <div class="content_row_wrapper  default" ><div class="vc_col-sm-3 wpb_column vc_column_container">
                 <div class="wpb_wrapper">
-                    <article   class="image-content-box content-box box-style-1 left"><div class="featured_image_holder"><a href="http://www.wencomining.com/mining-equipments/conveyor-belts" title="Conveyor Belts" target="_self"><img class="img-responsive" src="http://www.wencomining.com/wp-content/uploads/2015/02/conveyor-solution.jpg" alt="Conveyor belts" /></a></div><div class="text-holder">
+                    <article   class="image-content-box content-box box-style-1 left"><div class="featured_image_holder"><a href="/Cate/Conveyor-Belt-Vulcanizer.html" title="Conveyor Belts" target="_self"><img class="img-responsive" src="http://www.wencomining.com/wp-content/uploads/2015/02/conveyor-solution.jpg" alt="Conveyor belts" /></a></div><div class="text-holder">
                         <h3 class="heading" >
-                            <a href="http://www.wencomining.com/mining-equipments/conveyor-belts" title="Conveyor Belts" target="_self" >
-                                Conveyor Belts
+                            <a href="/Cate/Conveyor-Belt-Vulcanizer.html" title="Conveyor Belt Vulcanizer" target="_self" >
+                                Conveyor Belt Vulcanizer
                             </a>
-                        </h3> <a class="read_more" href="http://www.wencomining.com/mining-equipments/conveyor-belts" title="Conveyor Belts" target="_self" >Conveyor Belts</a></div></article>
+                        </h3> <a class="read_more" href="/Cate/Conveyor-Belt-Vulcanizer.html" title="Conveyor Belts" target="_self" >Conveyor Belts</a></div></article>
                 </div>
             </div>
 
                 <div class="vc_col-sm-3 wpb_column vc_column_container">
                     <div class="wpb_wrapper">
-                        <article   class="image-content-box content-box box-style-1 left"><div class="featured_image_holder"><a href="http://www.wencomining.com/mining-equipments/rubber-sheeting/" title="Rubber Sheeting" target="_self"><img class="img-responsive" src="http://www.wencomining.com/wp-content/uploads/2015/02/rubbersheeting-1.jpg" alt="" /></a></div><div class="text-holder">
+                        <article   class="image-content-box content-box box-style-1 left"><div class="featured_image_holder"><a href="/Cate/Belt-Repair-Vulcanizer.html" title="Rubber Sheeting" target="_self"><img class="img-responsive" src="http://www.wencomining.com/wp-content/uploads/2015/02/rubbersheeting-1.jpg" alt="" /></a></div><div class="text-holder">
                             <h3 class="heading" >
-                                <a href="http://www.wencomining.com/mining-equipments/rubber-sheeting/" title="Rubber Sheeting" target="_self" >
-                                    Rubber Sheeting
+                                <a href="/Cate/Belt-Repair-Vulcanizer.html" title="Belt Repair Vulcanizer" target="_self" >
+                                    Belt Repair Vulcanizer
                                 </a>
                             </h3> <div data-canvas-width="841.2559772918588"></div>
                             <div data-canvas-width="841.2559772918588"></div>
-                            <a class="read_more" href="http://www.wencomining.com/mining-equipments/rubber-sheeting/" title="Rubber Sheeting" target="_self" >Rubber Sheeting</a></div></article>
+                            <a class="read_more" href="/Cate/Belt-Repair-Vulcanizer.html" title="Rubber Sheeting" target="_self" >Rubber Sheeting</a></div></article>
                     </div>
                 </div>
 
                 <div class="vc_col-sm-3 wpb_column vc_column_container">
                     <div class="wpb_wrapper">
-                        <article   class="image-content-box content-box box-style-1 left"><div class="featured_image_holder"><a href="http://www.wencomining.com/mining-equipments/wear-solutions/" title="Wear Solutions" target="_self"><img class="img-responsive" src="http://www.wencomining.com/wp-content/uploads/2015/02/wear-solutions.jpg" alt="Wear Solutions" /></a></div><div class="text-holder">
+                        <article   class="image-content-box content-box box-style-1 left"><div class="featured_image_holder"><a href="/Cate/Belt-Strip-Machine-Series.html" title="Wear Solutions" target="_self"><img class="img-responsive" src="http://www.wencomining.com/wp-content/uploads/2015/02/wear-solutions.jpg" alt="Wear Solutions" /></a></div><div class="text-holder">
                             <h3 class="heading" >
-                                <a href="http://www.wencomining.com/mining-equipments/wear-solutions/" title="Wear Solutions" target="_self" >
-                                    Wear Solutions
+                                <a href="/Cate/Belt-Strip-Machine-Series.html" title="Belt Strip Machine Series" target="_self" >
+                                    Belt Strip Machine Series
                                 </a>
-                            </h3> <a class="read_more" href="http://www.wencomining.com/mining-equipments/wear-solutions/" title="Wear Solutions" target="_self" >Wear Solutions</a></div></article>
+                            </h3> <a class="read_more" href="/Cate/Belt-Strip-Machine-Series.html" title="Wear Solutions" target="_self" >Wear Solutions</a></div></article>
                     </div>
                 </div>
 
                 <div class="vc_col-sm-3 wpb_column vc_column_container">
                     <div class="wpb_wrapper">
-                        <article   class="image-content-box content-box box-style-1 left"><div class="featured_image_holder"><a href="http://www.wencomining.com/mining-equipments/mining-hose" title="Mining Hose" target="_self"><img class="img-responsive" src="http://www.wencomining.com/wp-content/uploads/2015/02/mining-hoses.jpg" alt="Mining House" /></a></div><div class="text-holder">
+                        <article   class="image-content-box content-box box-style-1 left"><div class="featured_image_holder"><a href="/Cate/Conveyor-or-Auxiliary-Devices.html" title="Mining Hose" target="_self"><img class="img-responsive" src="http://www.wencomining.com/wp-content/uploads/2015/02/mining-hoses.jpg" alt="Mining House" /></a></div><div class="text-holder">
                             <h3 class="heading" >
-                                <a href="http://www.wencomining.com/mining-equipments/mining-hose" title="Mining Hose" target="_self" >
-                                    Mining Hose
+                                <a href="/Cate/Conveyor-or-Auxiliary-Devices.html" title="Conveyor or Auxiliary Devices" target="_self" >
+                                    Conveyor or Auxiliary Devices
                                 </a>
                             </h3> <div data-canvas-width="682.7998597974586"></div>
                             <div data-canvas-width="682.7998597974586"></div>
-                            <a class="read_more" href="http://www.wencomining.com/mining-equipments/mining-hose" title="Mining Hose" target="_self" >Mining Hose</a></div></article>
+                            <a class="read_more" href="/Cate/Conveyor-or-Auxiliary-Devices.html" title="Mining Hose" target="_self" >Mining Hose</a></div></article>
                     </div>
                 </div>
             </div>
