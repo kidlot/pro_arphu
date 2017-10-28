@@ -11,7 +11,7 @@ class ProductController extends BaseController{
 
     public function html(){
         $url=I('url');
-        $list=M('product')->where(['product_name'=>$url])->select();
+        $list=M('product')->where(['url'=>$url])->find();
         $this->assign('pro_info',$list);
         $this->display("Product/detail");
     }
