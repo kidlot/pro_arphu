@@ -8,24 +8,24 @@
 // +----------------------------------------------------------------------
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
-
 // 检测PHP环境
 if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 
 // 开启调试模式 建议开发阶段开启 部署阶段注释或者设为false
-define('APP_DEBUG',true);
+define('APP_DEBUG',TRUE);
+
+
 
 // 定义应用目录
-define('APP_PATH', __DIR__. DIRECTORY_SEPARATOR . 'App' . DIRECTORY_SEPARATOR);
-// 定义公共目录
-define('PUBLIC_PATH', __DIR__. DIRECTORY_SEPARATOR . 'Public' . DIRECTORY_SEPARATOR);
+define('APP_PATH', __DIR__. DIRECTORY_SEPARATOR . 'App'. DIRECTORY_SEPARATOR );
+
 //定义运行目录
-define('RUNTIME_PATH', PUBLIC_PATH . 'Runtime' . DIRECTORY_SEPARATOR);
-// 默认绑定Home模块--注意这里
-define('BIND_MODULE', 'Home');
+define('RUNTIME_PATH', dirname(__FILE__) . DIRECTORY_SEPARATOR . 'Public'. DIRECTORY_SEPARATOR .'Runtime' . DIRECTORY_SEPARATOR);
+
 // 引入ThinkPHP入口文件
+
 require './Framework/ThinkPHP.php';
 
+
+//use EasyWeChat\Foundation\Application;
 // 亲^_^ 后面不需要任何代码了 就是如此简单
-
-
