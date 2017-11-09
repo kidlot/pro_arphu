@@ -190,9 +190,9 @@
 
                 <div class="pull-right">
                     <ul class="topbar-right">
-                        <li>Operating Hours<br>Mon - Fri : From 08:00 - 17:00</li>
-                        <li>We're on Call 24/7<br>+61 8 9267 5509</li>
-                        <li>24/7 Support<br>sales@wencomining.com</li>
+                        <li>Operating Hours<br>Mon- Sat 08:30-17:30</li>
+                        <li>We're on Call 24/7<br>+8617712451616</li>
+                        <li>24/7 Support<br>info@arphu.com</li>
                     </ul>
                 </div>
             </div>
@@ -211,23 +211,26 @@
 
             <!-- logo -->
             <div id="logo" class="site-logo">
-                <a href="/" title="arphu"><img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" width="290" height="84" class="main_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" /><img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" class="sticky_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" /></a> 			</div><!-- / end #logo -->
+                <a href="/" title="arphu"><img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" width="290" height="84" class="main_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" />
+                    <img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" class="sticky_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" /></a> 			</div><!-- / end #logo -->
 
 
             <div class="header-right">
-                <nav class="main-navigation"><ul id="navigation" class="menu"><li id='menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="http://www.wencomining.com/mining-equipments/"><span>PRODUCTS</span></a>
+                <nav class="main-navigation"><ul id="navigation" class="menu"><li id='menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="/mining-equipments/"><span>PRODUCTS</span></a>
                     <ul class="sub-menu">
                         <?php if(is_array($cates)): $i = 0; $__LIST__ = $cates;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><li id='menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/<?php echo ($v['cate_name']); ?>.html"><?php echo ($v['cate']); ?></a> </li><?php endforeach; endif; else: echo "" ;endif; ?>
                    </ul>
                 </li>
-                    <li id='menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/mining-projects/"><span>PROJECTS</span></a> </li>
-                    <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/about-us.html"><span>ABOUT US</span></a>
+                    <li id='menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/mining-projects/"><span>PROJECTS</span></a> </li>
 
+                    <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children"><a  href="#"><span>ABOUT US</span></a>
+                        <ul class="sub-menu">
+                            <li id='menu-item-3676' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3632 current_page_item"><a  href="/about-us.html">ABOUT US</a> </li>
+                            <li id='menu-item-2903' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/our-team.html">OUR TEAM</a> </li>
+                            <li id='menu-item-2881' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html">CONTACT US</a> </li>
+                        </ul>
                     </li>
-                    <li id='menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/blog/"><span>BLOG</span></a> </li>
-                    <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html"><span>CONTACT US</span></a>
-
-                    </li>
+                    <li id='menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/news-center.html"><span>NEWS CENTER</span></a> </li>
                 </ul></nav>			<div id="tools">
                 <ul>
                     <li><a href="#" class="rt-search-button" title="Search"><span class="icon-search"></span></a></li>
@@ -243,22 +246,18 @@
                 <nav>
                     <ul id="mobile-navigation" class="mobile-navigation-menu"><li id='mobile-menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="http://www.wencomining.com/mining-equipments/"><span>PRODUCTS</span></a>
                         <ul class="sub-menu">
-                            <li id='mobile-menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/conveyor-belts/">Conveyor Belts</a> </li>
-                            <li id='mobile-menu-item-4055' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/rubber-sheeting/">Rubber Sheeting</a> </li>
-                            <li id='mobile-menu-item-4056' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/wear-solutions/">Wear Solutions</a> </li>
-                            <li id='mobile-menu-item-4057' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/mining-hose">Mining Hose</a> </li>
+                            <?php if(is_array($cates)): $i = 0; $__LIST__ = $cates;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><li id='mobile-menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/<?php echo ($v['cate_name']); ?>.html"><?php echo ($v['cate']); ?></a> </li><?php endforeach; endif; else: echo "" ;endif; ?>
                         </ul>
                     </li>
                         <li id='mobile-menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/mining-projects/"><span>PROJECTS</span></a> </li>
-                        <li id='mobile-menu-item-4067' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/facilities/"><span>FACILITIES</span></a> </li>
                         <li id='mobile-menu-item-2871' data-depth='0' class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a  href="#"><span>ABOUT US</span></a>
                             <ul class="sub-menu">
-                                <li id='mobile-menu-item-3676' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/our-company/">Our Company</a> </li>
-                                <li id='mobile-menu-item-2903' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/mining-team/">Mining Team</a> </li>
-                                <li id='mobile-menu-item-2881' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/contact-us/">Contact Us</a> </li>
+                                <li id='mobile-menu-item-3676' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/about-us.html">ABOUT US</a> </li>
+                                <li id='mobile-menu-item-2903' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/our-team.html">OUR TEAM</a> </li>
+                                <li id='mobile-menu-item-2881' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html">CONTACT US</a> </li>
                             </ul>
                         </li>
-                        <li id='mobile-menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/blog/"><span>BLOG</span></a> </li>
+                        <li id='mobile-menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/news-center.html"><span>NEWS CENTER</span></a> </li>
                     </ul>				</nav>
             </div>
 
@@ -305,7 +304,7 @@
 
                         <div id="slider-4011-product-image-carosel" class="rt-carousel carousel-holder clearfix product-image-carosel rt-image-carousel" data-item-width="1" data-nav="true" data-dots="false" data-margin="15" data-autoplay="true" data-timeout="7500" data-loop="false" data-tablet-item-width="" data-mobile-item-width="1">
                             <div class="owl-carousel">
-                                <div><a id="lightbox-160076" class="imgeffect zoom lightbox_" data-group="slider-carousel-208762" title="Red Rubber" data-title="Red Rubber" data-sub-html="#lightbox-160076-description" data-thumbnail="http://www.wencomining.com/wp-content/uploads/2017/01/WENCO-REX-PREMIUM-1v2-75x50.jpg" data-thumbTooltip="" data-scaleUp="" data-href="" data-width="" data-height="" data-flashHasPriority="" data-poster="" data-autoplay="" data-audiotitle="" data-html="" href="http://www.wencomining.com/wp-content/uploads/2017/01/WENCO-REX-PREMIUM-1v2.jpg" ><img src="http://www.wencomining.com/wp-content/uploads/2017/01/WENCO-REX-PREMIUM-1v2.jpg" alt="Red Rubber" itemprop="image"></a>
+                                <div><a id="lightbox-160076" class="imgeffect zoom lightbox_" data-group="slider-carousel-208762" title="Red Rubber" data-title="Red Rubber" data-sub-html="#lightbox-160076-description" data-thumbnail="http://www.wencomining.com/wp-content/uploads/2017/01/WENCO-REX-PREMIUM-1v2-75x50.jpg" data-thumbTooltip="" data-scaleUp="" data-href="" data-width="" data-height="" data-flashHasPriority="" data-poster="" data-autoplay="" data-audiotitle="" data-html="" href="<?php echo ($pro_info['product_pic']); ?>" ><img src="<?php echo ($pro_info['product_pic']); ?>" alt="Red Rubber" itemprop="image"></a>
                                     <div class="lighbox-description hidden" id="lightbox-160076-description">
                                         <strong>Red Rubber</strong><br>
 
@@ -339,81 +338,17 @@
                 <div class="rt_tabs clearfix  left tab-style-2" id="single-product-details" data-tab-style="tab-style-2"><ul class="tab_nav hidden-xs"><li class="tab_title  active" id="tab-general-details-title" data-tab-number="1"><span class="icon-doc-alt"></span>General Details</li><li class="tab_title " id="tab-1-title" data-tab-number="2"><span class="icon-wrench"></span>Technical Info</li><li class="tab_title " id="tab-2-title" data-tab-number="3"><span class="icon-resize-full"></span>Available Dimensions</li><li class="tab_title " id="tab-related-products-title" data-tab-number="4"><span class="icon-link"></span>Related Products</li></ul><div class="tab_contents"><div class="tab_content_wrapper animation  active" id="tab-general-details" data-tab-content="1">
                     <div id="tab-general-details-inline-title" class="tab_title visible-xs" data-tab-number="1"><span class="icon-doc-alt"></span>General Details</div>
                     <div class="tab_content">
-                        <div data-canvas-width="203.7502814117647">WENCO REX our Premium quality rubber range is a soft rubber compound 38 ShA mainly</div>
-                        <div data-canvas-width="203.7502814117647">for wet application. All Wenco Rex products comes with buff back for easy application. The</div>
-                        <div data-canvas-width="203.7502814117647">roughness of the buff back is in the range of RMA 3 (Rubber Manufacturing Association)</div>
-                        <div data-canvas-width="203.7502814117647">and is perfectly suited for cold bonding.</div>
-                        <div data-canvas-width="162.0447100862745"></div>
-                        <div data-canvas-width="162.0447100862745"></div>
+                            <?php echo ($pro_info['general_details']); ?>
                     </div>
                 </div><div class="tab_content_wrapper animation " id="tab-1" data-tab-content="2">
                     <div id="tab-1-inline-title" class="tab_title visible-xs" data-tab-number="2"><span class="icon-wrench"></span>Technical Info</div>
                     <div class="tab_content">
-                        <table width="586">
-                            <tbody>
-                            <tr>
-                                <td width="250">PROPERTIES</td>
-                                <td width="161">METRIC UNITS</td>
-                                <td width="175">IMPERIAL UNITS</td>
-                            </tr>
-                            <tr>
-                                <td>SPECIFIC GRAVITY</td>
-                                <td>0.98±0.05</td>
-                                <td>0.98±0.05</td>
-                            </tr>
-                            <tr>
-                                <td>HARDNESS</td>
-                                <td>38 ± 5 Sh A</td>
-                                <td>38 ± 5 Sh A</td>
-                            </tr>
-                            <tr>
-                                <td>TENSILE STRENGTH (min)</td>
-                                <td>25.5 MPa</td>
-                                <td> 3626 PSI</td>
-                            </tr>
-                            <tr>
-                                <td>ELONGATION AT BREAK (min)</td>
-                                <td>900%</td>
-                                <td>900%</td>
-                            </tr>
-                            <tr>
-                                <td>ABRASION RESISTANCE (max)</td>
-                                <td>80 mm³</td>
-                                <td>80 mm³</td>
-                            </tr>
-                            <tr>
-                                <td>TEAR RESISTANCE (Angular) min</td>
-                                <td>44 Kg/cm</td>
-                                <td>247 LbS/Inch</td>
-                            </tr>
-                            <tr>
-                                <td>RESILIENCE</td>
-                                <td>75%</td>
-                                <td>75%</td>
-                            </tr>
-                            </tbody>
-                        </table>
+                            <?php echo ($pro_info['technical_info']); ?>
                     </div>
                 </div><div class="tab_content_wrapper animation " id="tab-2" data-tab-content="3">
                     <div id="tab-2-inline-title" class="tab_title visible-xs" data-tab-number="3"><span class="icon-resize-full"></span>Available Dimensions</div>
                     <div class="tab_content">
-                        <table width="182">
-                            <tbody>
-                            <tr>
-                                <td width="182">3 x 1,500 x 10,000mm</td>
-                            </tr>
-                            </tbody>
-                        </table>
-                        <p data-canvas-width="290.1306312899764">6 x 1,500 x 10,000mm</p>
-                        <p data-canvas-width="290.1306312899764">9 x 1,500 x 10,000mm</p>
-                        <p data-canvas-width="298.5356469697882">10 x 1,500 x 10,000mm</p>
-                        <p data-canvas-width="298.5356469697882">12 x 1,500 x 10,000mm</p>
-                        <p data-canvas-width="298.5356469697882">15 x 1,500 x 10,000mm</p>
-                        <p data-canvas-width="298.5356469697882">19 x 1,500 x 10,000mm</p>
-                        <p data-canvas-width="298.5356469697882">24 x 1,500 x 10,000mm</p>
-                        <p data-canvas-width="298.5356469697882"><em>Our capabilities include manufacturing widths in the range of 1,200mm, 1,400mm and up to 2,000mm and in length of up to 30m.</em></p>
-                        <p data-canvas-width="298.5356469697882"><em>Double buff back can be made available. </em></p>
-                        <p data-canvas-width="298.5356469697882">All above products are available in CN backing upon request.</p>
+                        <?php echo ($pro_info['product_range']); ?>
                     </div>
                 </div><div class="tab_content_wrapper animation " id="tab-related-products" data-tab-content="4">
                     <div id="tab-related-products-inline-title" class="tab_title visible-xs" data-tab-number="4"><span class="icon-link"></span>Related Products</div>

@@ -190,9 +190,9 @@
 
                 <div class="pull-right">
                     <ul class="topbar-right">
-                        <li>Operating Hours<br>Mon - Fri : From 08:00 - 17:00</li>
-                        <li>We're on Call 24/7<br>+61 8 9267 5509</li>
-                        <li>24/7 Support<br>sales@wencomining.com</li>
+                        <li>Operating Hours<br>Mon- Sat 08:30-17:30</li>
+                        <li>We're on Call 24/7<br>+8617712451616</li>
+                        <li>24/7 Support<br>info@arphu.com</li>
                     </ul>
                 </div>
             </div>
@@ -211,23 +211,26 @@
 
             <!-- logo -->
             <div id="logo" class="site-logo">
-                <a href="/" title="arphu"><img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" width="290" height="84" class="main_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" /><img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" class="sticky_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" /></a> 			</div><!-- / end #logo -->
+                <a href="/" title="arphu"><img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" width="290" height="84" class="main_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" />
+                    <img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" class="sticky_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" /></a> 			</div><!-- / end #logo -->
 
 
             <div class="header-right">
-                <nav class="main-navigation"><ul id="navigation" class="menu"><li id='menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="/mining-equipments/"><span>PRODUCTS</span></a>
+                <nav class="main-navigation"><ul id="navigation" class="menu"><li id='menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="#"><span>PRODUCTS</span></a>
                     <ul class="sub-menu">
                         <?php if(is_array($cates)): $i = 0; $__LIST__ = $cates;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><li id='menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/<?php echo ($v['cate_name']); ?>.html"><?php echo ($v['cate']); ?></a> </li><?php endforeach; endif; else: echo "" ;endif; ?>
                    </ul>
                 </li>
-                    <li id='menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/mining-projects/"><span>PROJECTS</span></a> </li>
-                    <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/about-us.html"><span>ABOUT US</span></a>
+                    <li id='menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/project.html"><span>PROJECTS</span></a> </li>
 
+                    <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-has-children"><a  href="#"><span>ABOUT US</span></a>
+                        <ul class="sub-menu">
+                            <li id='menu-item-3676' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-3632 current_page_item"><a  href="/about-us.html">ABOUT US</a> </li>
+                            <li id='menu-item-2903' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/our-team.html">OUR TEAM</a> </li>
+                            <li id='menu-item-2881' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html">CONTACT US</a> </li>
+                        </ul>
                     </li>
-                    <li id='menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/blog/"><span>BLOG</span></a> </li>
-                    <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html"><span>CONTACT US</span></a>
-
-                    </li>
+                    <li id='menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/news-center.html"><span>NEWS CENTER</span></a> </li>
                 </ul></nav>			<div id="tools">
                 <ul>
                     <li><a href="#" class="rt-search-button" title="Search"><span class="icon-search"></span></a></li>
@@ -243,22 +246,18 @@
                 <nav>
                     <ul id="mobile-navigation" class="mobile-navigation-menu"><li id='mobile-menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="http://www.wencomining.com/mining-equipments/"><span>PRODUCTS</span></a>
                         <ul class="sub-menu">
-                            <li id='mobile-menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/Conveyor-Belt-Vulcanizer.html">Conveyor Belt Vulcanizer</a> </li>
-                            <li id='mobile-menu-item-4055' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/Belt-Repair-Vulcanizer.html">Belt Repair Vulcanizer</a> </li>
-                            <li id='mobile-menu-item-4056' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/Belt-Strip-Machine-Series.html">Belt Strip Machine Series</a> </li>
-                            <li id='mobile-menu-item-4057' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/Conveyor-or-Auxiliary-Devices.html">Conveyor or Auxiliary Devices</a> </li>
+                            <?php if(is_array($cates)): $i = 0; $__LIST__ = $cates;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><li id='mobile-menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/<?php echo ($v['cate_name']); ?>.html"><?php echo ($v['cate']); ?></a> </li><?php endforeach; endif; else: echo "" ;endif; ?>
                         </ul>
                     </li>
-                        <li id='mobile-menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/mining-projects/"><span>PROJECTS</span></a> </li>
+                        <li id='mobile-menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/project.html"><span>PROJECTS</span></a> </li>
                         <li id='mobile-menu-item-2871' data-depth='0' class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a  href="#"><span>ABOUT US</span></a>
                             <ul class="sub-menu">
-                                <li id='mobile-menu-item-3676' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/our-company/">Our Company</a> </li>
-                                <li id='mobile-menu-item-2903' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/mining-team/">Mining Team</a> </li>
-                                <li id='mobile-menu-item-2881' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/contact-us/">Contact Us</a> </li>
+                                <li id='mobile-menu-item-3676' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/about-us.html">ABOUT US</a> </li>
+                                <li id='mobile-menu-item-2903' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/our-team.html">OUR TEAM</a> </li>
+                                <li id='mobile-menu-item-2881' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html">CONTACT US</a> </li>
                             </ul>
                         </li>
-                        <li id='mobile-menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/blog/"><span>BLOG</span></a> </li>
-                        <li id='mobile-menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html/"><span>CONTACT US</span></a> </li>
+                        <li id='mobile-menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/news-center.html"><span>NEWS CENTER</span></a> </li>
                     </ul>				</nav>
             </div>
 
@@ -275,31 +274,31 @@
                         <div id="content-slider-551145" style="min-height:600px;" class="rt-carousel main-carousel carousel-holder clearfix" data-item-width="1" data-nav="true" data-dots="true" data-parallax="true" data-timeout="12000" data-autoplay="true">
                             <div class="owl-carousel">
 
-                                <div class="item  light-style slide-background" style="background-image: url(http://www.wencomining.com/wp-content/uploads/2015/02/Slider-2.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;min-height: 600px;">
+                                <div class="item  light-style slide-background" style="background-image: url(/Public/Default/home/upload/banner1.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;min-height: 600px;">
 
                                     <div class="slide-content-wrapper default clearfix">
                                         <div class="slide-content animation  right" style="width: 50%;background-color: rgba(0,0,0,0.38);margin-top: 180px;">
-                                            <h4>Flexibility</h4>
-                                            <h5><em><strong>Facilitate customers with wide range of products and services enabled by its resources.</strong></em></h5>
+                                            <h4>CONVEYOR BELT MAINTEANCE</h4>
+                                            <h5><em><strong>Meeting client expectations, on time and quick delivery to provide superior products  and super services to client industries.</strong></em></h5>
 
                                         </div>
                                     </div>
                                 </div>
-                                <div class="item  light-style slide-background" style="background-image: url(http://www.wencomining.com/wp-content/uploads/2015/02/Slider-3.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;min-height: 600px;">
+                                <div class="item  light-style slide-background" style="background-image: url(/Public/Default/home/upload/banner2.jpg);background-repeat: no-repeat;background-size: cover;background-position: center center;min-height: 600px;">
 
                                     <div class="slide-content-wrapper default clearfix">
                                         <div class="slide-content animation  right" style="width: 50%;background-color: rgba(0,0,0,0.38);margin-top: 180px;">
-                                            <h4>Exceeding excellence</h4>
-                                            <h5><em><strong>Continuous monitoring of products and services to exceed industry and market expectations.</strong></em></h5>
+                                            <h4>MINING SERVICE</h4>
+                                            <h5><em><strong>Enhance safety as well as cost reductions in the mining sector, we commited to work as a valued partner on the job.</strong></em></h5>
 
                                         </div>
                                     </div>
                                 </div>
-                                <div class="item  light-style slide-background" style="background-image: url(http://www.wencomining.com/wp-content/uploads/2015/02/slide-1.jpg);background-repeat: no-repeat;background-size: cover;background-position: left top;min-height: 600px;">
+                                <div class="item  light-style slide-background" style="background-image: url(/Public/Default/home/upload/banner3.jpg);background-repeat: no-repeat;background-size: cover;background-position: left top;min-height: 600px;">
 
                                     <div class="slide-content-wrapper default clearfix">
                                         <div class="slide-content animation  right" style="width: 50%;background-color: rgba(0,0,0,0.2);margin-top: 180px;">
-                                            <h4>Custom Approach</h4>
+                                            <h4>CUSTOMER APPROACH</h4>
                                             <h5><em><strong>Specialised in supplying products designed to meet end-user requirements apart from quality off the shelf products</strong></em></h5>
 
                                         </div>
@@ -318,7 +317,7 @@
             <div class="content_row_wrapper  align-contents content-align-middle default" style="padding-top:45px;padding-bottom:45px;"><div class="vc_col-sm-8 wpb_column vc_column_container">
                 <div class="wpb_wrapper">
                     <div class="rt_heading_wrapper " style="padding-bottom:0px;">
-                        <h4 class="rt_heading  mobile_aligncenter "  style="color:#ffffff;margin-bottom:0px;"> <span class="highlight style-1">Wenco&#8217;s mining divison</span> is committed to supplying Australian mines with dependable products for any operation.</h4>
+                        <h4 class="rt_heading  mobile_aligncenter "  style="color:#ffffff;margin-bottom:0px;">  We devote ourselves to the field of conveyor belt maintenance</h4>
                     </div>
                 </div>
             </div>
@@ -337,11 +336,11 @@
                 <div class="vc_col-sm-12 wpb_column vc_column_container">
                     <div class="wpb_wrapper">
                         <div class="rt_heading_wrapper style-1">
-                            <h1 class="rt_heading  style-1" >Our Mining Supplies</h1>
+                            <h1 class="rt_heading  style-1" >Our Products</h1>
                         </div>
                         <div class="wpb_text_column wpb_content_element ">
                             <div class="wpb_wrapper">
-                                <p style="text-align: left;">Our mining divison offers an extensive range of Mining Products and Services across Australia.</p>
+                                <p style="text-align: left;">The conveyor belt maintenance products and related auxiliaries offered by Arphu are mostly in the repairs division to enhance the performance of conveyor belting.</p>
 
                             </div>
                         </div>
@@ -356,49 +355,49 @@
 
             <div class="content_row_wrapper  default" ><div class="vc_col-sm-3 wpb_column vc_column_container">
                 <div class="wpb_wrapper">
-                    <article   class="image-content-box content-box box-style-1 left"><div class="featured_image_holder"><a href="/Cate/Conveyor-Belt-Vulcanizer.html" title="Conveyor Belts" target="_self"><img class="img-responsive" src="http://www.wencomining.com/wp-content/uploads/2015/02/conveyor-solution.jpg" alt="Conveyor belts" /></a></div><div class="text-holder">
+                    <article   class="image-content-box content-box box-style-1 left"><div class="featured_image_holder"><a href="/Cate/Conveyor-Belt-Vulcanizer.html" title="Conveyor Belts" target="_self"><img class="img-responsive" src="/Public/Default/home/upload/1 conveyor belt vulcanizer.jpg" alt="Conveyor belts" /></a></div><div class="text-holder">
                         <h3 class="heading" >
                             <a href="/Cate/Conveyor-Belt-Vulcanizer.html" title="Conveyor Belt Vulcanizer" target="_self" >
                                 Conveyor Belt Vulcanizer
                             </a>
-                        </h3> <a class="read_more" href="/Cate/Conveyor-Belt-Vulcanizer.html" title="Conveyor Belts" target="_self" >Conveyor Belts</a></div></article>
+                        </h3> <a class="read_more" href="/Cate/Conveyor-Belt-Vulcanizer.html" title="Conveyor Belts" target="_self" >Conveyor Belt Vulcanizer</a></div></article>
                 </div>
             </div>
 
                 <div class="vc_col-sm-3 wpb_column vc_column_container">
                     <div class="wpb_wrapper">
-                        <article   class="image-content-box content-box box-style-1 left"><div class="featured_image_holder"><a href="/Cate/Belt-Repair-Vulcanizer.html" title="Rubber Sheeting" target="_self"><img class="img-responsive" src="http://www.wencomining.com/wp-content/uploads/2015/02/rubbersheeting-1.jpg" alt="" /></a></div><div class="text-holder">
+                        <article   class="image-content-box content-box box-style-1 left"><div class="featured_image_holder"><a href="/Cate/Belt-Repair-Vulcanizer.html" title="Rubber Sheeting" target="_self"><img class="img-responsive" src="/Public/Default/home/upload/2 Conveyor belt repair.jpg" alt="" /></a></div><div class="text-holder">
                             <h3 class="heading" >
                                 <a href="/Cate/Belt-Repair-Vulcanizer.html" title="Belt Repair Vulcanizer" target="_self" >
                                     Belt Repair Vulcanizer
                                 </a>
                             </h3> <div data-canvas-width="841.2559772918588"></div>
                             <div data-canvas-width="841.2559772918588"></div>
-                            <a class="read_more" href="/Cate/Belt-Repair-Vulcanizer.html" title="Rubber Sheeting" target="_self" >Rubber Sheeting</a></div></article>
+                            <a class="read_more" href="/Cate/Belt-Repair-Vulcanizer.html" title=" Belt Repair Vulcanizer" target="_self" >Belt Repair Vulcanizer</a></div></article>
                     </div>
                 </div>
 
                 <div class="vc_col-sm-3 wpb_column vc_column_container">
                     <div class="wpb_wrapper">
-                        <article   class="image-content-box content-box box-style-1 left"><div class="featured_image_holder"><a href="/Cate/Belt-Strip-Machine-Series.html" title="Wear Solutions" target="_self"><img class="img-responsive" src="http://www.wencomining.com/wp-content/uploads/2015/02/wear-solutions.jpg" alt="Wear Solutions" /></a></div><div class="text-holder">
+                        <article   class="image-content-box content-box box-style-1 left"><div class="featured_image_holder"><a href="/Cate/Belt-Strip-Machine-Series.html" title="Wear Solutions" target="_self"><img class="img-responsive" src="/Public/Default/home/upload/3 Belt stripping machine series.jpg" alt="Wear Solutions" /></a></div><div class="text-holder">
                             <h3 class="heading" >
                                 <a href="/Cate/Belt-Strip-Machine-Series.html" title="Belt Strip Machine Series" target="_self" >
                                     Belt Strip Machine Series
                                 </a>
-                            </h3> <a class="read_more" href="/Cate/Belt-Strip-Machine-Series.html" title="Wear Solutions" target="_self" >Wear Solutions</a></div></article>
+                            </h3> <a class="read_more" href="/Cate/Belt-Strip-Machine-Series.html" title="Wear Solutions" target="_self" >Belt Strip Machine Series</a></div></article>
                     </div>
                 </div>
 
                 <div class="vc_col-sm-3 wpb_column vc_column_container">
                     <div class="wpb_wrapper">
-                        <article   class="image-content-box content-box box-style-1 left"><div class="featured_image_holder"><a href="/Cate/Conveyor-or-Auxiliary-Devices.html" title="Mining Hose" target="_self"><img class="img-responsive" src="http://www.wencomining.com/wp-content/uploads/2015/02/mining-hoses.jpg" alt="Mining House" /></a></div><div class="text-holder">
+                        <article   class="image-content-box content-box box-style-1 left"><div class="featured_image_holder"><a href="/Cate/Conveyor-or-Auxiliary-Devices.html" title="Mining Hose" target="_self"><img class="img-responsive" src="/Public/Default/home/upload/4 conveyor auxliary.jpg" alt="Mining House" /></a></div><div class="text-holder">
                             <h3 class="heading" >
                                 <a href="/Cate/Conveyor-or-Auxiliary-Devices.html" title="Conveyor or Auxiliary Devices" target="_self" >
                                     Conveyor or Auxiliary Devices
                                 </a>
                             </h3> <div data-canvas-width="682.7998597974586"></div>
                             <div data-canvas-width="682.7998597974586"></div>
-                            <a class="read_more" href="/Cate/Conveyor-or-Auxiliary-Devices.html" title="Mining Hose" target="_self" >Mining Hose</a></div></article>
+                            <a class="read_more" href="/Cate/Conveyor-or-Auxiliary-Devices.html" title="Mining Hose" target="_self" >Conveyor or Auxiliary Devices</a></div></article>
                     </div>
                 </div>
             </div>
@@ -411,20 +410,20 @@
 
                     <div class="wpb_text_column wpb_content_element ">
                         <div class="wpb_wrapper">
-                            <p>Wenco believes in sustainable growth with the client by providing reliable products to the industry. Wenco Mining designs, manufactures, sources and distributes wear products and services, specifically tailored to the mineral extraction/Mining, quarrying and mineral ore beneficiation plants globally.</p>
+                            <p>Arphu designs, manufactures, sells and supports the complete solutions including high standard conveyor belt splicing products and reliable maintenance services, specially to the mining, steel, port, cement industry globally.</p>
 
                         </div>
                     </div>
                     <div class="rt_heading_wrapper style-5">
-                        <span class="punchline" style="color:#45c15c;">Multi-Projects</span><h2 class="rt_heading  with_punchline heading-font style-5"  style="color:#45c15c;">OUR PROJECTS</h2>
+                        <span class="punchline" style="color:#45c15c;">OUR PROJECTS</span><h2 class="rt_heading  with_punchline heading-font style-5"  style="color:#45c15c;">OUR PROJECTS</h2>
                     </div>
                     <div class="wpb_text_column wpb_content_element ">
                         <div class="wpb_wrapper">
-                            <p style="text-align: left;">Our approach to service and quality is uncompromising, with the highest consideration to safety and personal development</p>
+                            <p style="text-align: left;">We have made projects for the BaoSteel group, Conch Cement, BHP, Buenaventura Port, etc. We respect each of domestic and overseas partner organizations and value each chance to keep sustainable development with our clients.  </p>
 
                         </div>
                     </div>
-                    <div class="button_wrapper  alignleft"><a  href="http://www.wencomining.com/mining-projects/" target="_self" title="See all our Projects" class="button_  color medium">See all our Projects</a></div>
+                    <div class="button_wrapper  alignleft"><a  href="/project.html" target="_self" title="See all our Projects" class="button_  color medium">See all our Projects</a></div>
                 </div>
             </div>
 
@@ -691,12 +690,12 @@
                         <div class="text ">
                             <p>
                                 <span class="icon-quote-left"></span>
-                                Just thought I would drop you a line and say thank you to Wenco, notably Lloyd, Rudi and the Rubber Products Division on their exceptional service to date. Nothing is too much trouble and all members are keen to assist whenever required.
+                                I have test your machine already. It works good.
                                 <span class="icon-quote-right"></span>
                             </p>
                             <div class="client_info">
 
-                                Senior Estimator/Project Estimator
+                                Business Owner, Raymond
 
 
 
@@ -710,18 +709,42 @@
                             <div class="text ">
                                 <p>
                                     <span class="icon-quote-left"></span>
-                                    After some discussions with Rudy at Wenco, he suggested we try EPDM skim, but we had to make our own solution. I followed the process that was supplied by Rudy.  In August 2016, we replaced CV009 with HR180 belt and EPDM splice materials supplied by Wenco. I can confirm after 5 months of production the splice on CV009 shows no signs of cracking of delamination		<span class="icon-quote-right"></span>
+                                    My specialization in design, manufacture and splicing in conveyor belts, together with the experience, quality, reliability in Arphu, make our presses, articles and services a guarantee for the users of our products.		<span class="icon-quote-right"></span>
                                 </p>
                                 <div class="client_info">
 
-                                    Business Owner, Geraldton
-
-
-
-
+                                    General Manager, Nolberto
                                 </div>
                             </div></div>
-                    </div></section><div class="button_wrapper  aligncenter"><a  href="http://www.wencomining.com/testimonials/" target="_self" title="More testimonials" class="button_  heading-font custom medium" style="color:#ffffff;background-color:#000000;" data-hover-style="#000000">More testimonials</a></div>
+                        <div id="4204" class="testimonial col col-sm-6  last loop post-4204 testimonial type-testimonial status-publish hentry">
+
+
+
+                            <div class="text ">
+                                <p>
+                                    <span class="icon-quote-left"></span>
+                                    We've cooperated about 10 years with Arphu Industrial (DL Industrial Limited) for conveyor belt vulcanizing presses project, Arphu Industrial as a leader supplier with high quality products and perfect service bring us reliable and prosperous win-win cooperation!		<span class="icon-quote-right"></span>
+                                </p>
+                                <div class="client_info">
+
+                                    Director, David
+                                </div>
+                            </div></div>
+                        <div id="4204" class="testimonial col col-sm-6  last loop post-4204 testimonial type-testimonial status-publish hentry">
+
+
+
+                            <div class="text ">
+                                <p>
+                                    <span class="icon-quote-left"></span>
+                                    As a reliable supplier & partner, Arphu Industrial is an professional team with honesty, specialty and perfect services.  		<span class="icon-quote-right"></span>
+                                </p>
+                                <div class="client_info">
+
+                                    Sales, Antony
+                                </div>
+                            </div></div>
+                    </div></section>
                     </div>
                 </div>
 
@@ -743,12 +766,12 @@
                         </div>
                         <div class="wpb_text_column wpb_content_element ">
                             <div class="wpb_wrapper">
-                                <p><span style="color: #ffffff;">Being a division with rich history of more than 35 years offering wide range of services including heavy engineering, on-shore/off-shore, WENCO Mining has already started exceeding expectations.</span></p>
+                                <p><span style="color: #ffffff;">Being a manufacturer with rich experience of more than 10 years specializing in the conveyor belt maintenance and service including conveyor belt splicing machine, belt repair vulcanizing machine, belt stripping machine, Arphu has already started earlier. </span></p>
 
                             </div>
                         </div>
                         <div class="vc_empty_space"  style="height: 32px" ><span class="vc_empty_space_inner"></span></div>
-                        <div class="button_wrapper "><a  href="http://www.wencomining.com/mining-company/" target="_self" title="Know more about us" class="button_  heading-font default small"><span class="icon-new-link-1"></span>Know more about us</a></div>
+                        <div class="button_wrapper "><a  href="/about-us.html" target="_self" title="Know more about us" class="button_  heading-font default small"><span class="icon-new-link-1"></span>Know more about us</a></div>
                     </div>
                 </div>
             </div>
@@ -767,7 +790,7 @@
 
                         </div>
                     </div>
-                    <div class="button_wrapper "><a  href="http://www.wencomining.com/blog/" target="_self" title="More news" class="button_  heading-font color medium"><span class="icon-link-1"></span>More news</a></div>
+                    <div class="button_wrapper "><a  href="/news-center.html" target="_self" title="More news" class="button_  heading-font color medium"><span class="icon-link-1"></span>More news</a></div>
                 </div>
             </div>
 
@@ -1204,8 +1227,13 @@
 
     <!-- footer -->
 <footer id="footer" class="clearfix footer" data-footer="fixed_footer">
-    <section class="footer_widgets content_row row clearfix footer border_grid fixed_heights footer_contents fullwidth"><div class="content_row_wrapper fullwidth clearfix"><div id="footer-column-1" class="col col-xs-12 col-sm-4 widgets_holder"><div id="text-2" class="footer_widget widget widget_text"><h5>Wenco Mining Division</h5>			<div class="textwidget"><p>WENCO Mining division aims to provide exceptional service to  its clientele with 24 x 7 support from the team. We improvise the products to meet the clients requirements.<br />
-        Our after sales support/service team stands to monitor the products and it’s performance to improve on cost v/s life benefits. We carry one of the largest stocks in Australia on all our core products and has the potential to supply and service the mining industry in quick turn around time. WENCO Mining is a one stop shop for all the refurbishment requirements </p>
+    <section class="footer_widgets content_row row clearfix footer border_grid fixed_heights footer_contents fullwidth"><div class="content_row_wrapper fullwidth clearfix"><div id="footer-column-1" class="col col-xs-12 col-sm-4 widgets_holder"><div id="text-2" class="footer_widget widget widget_text"><h5>Suzhou Arphu Industrial Co., Ltd</h5>
+        <div class="textwidget">
+            <p>Arphu aims to provide excellent service to its clients with 24 x 7 support from the team. We provide the right products to meet the requirements of clients, prolong belt life, short belt downtime and accidents. <br />
+                Our after sales support team stands to monitor the products and improve its performance of conveyor belts through hot splicing and maintenance to benefit our customers. We are the leading manufacturer and exporter in China in the conveyor belt maintenance field and has the potential to supply and service in the industrial and mining, power plant, steel mill, port, chemical industry and cement enterprises in quick turn around time. <br />
+                Adhere to the honest, hardworking, professional and service business philosophy, we are committed to constantly improve the strength of the company and product quality, and strive to create more value for customers.
+            </p>
+
         <p><a href="http://www.wencomining.com/featured-products/">Featured Products</a> <br />
             <a href="http://www.wencomining.com/mining-projects/">Projects</a> <br />
             <a href="http://www.wencomining.com/mining-team/"> Our Team</a> </p>
@@ -1235,7 +1263,7 @@
             <p>Wenco Rex Premium (40 Shore A) and Wenguard (60 Sh...</p>
         </div>
     </div></div><div id="footer-column-3" class="col col-xs-12 col-sm-4 widgets_holder"><div id="text-5" class="footer_widget widget widget_text"><h5>We are Social</h5>			<div class="textwidget"></div>
-    </div><div id="social_media_icons-1" class="footer_widget widget widget_social_media_icons"><ul class="social_media"><li class="mail"><a class="icon-mail" target="_self" href="mailto:sales@wencomining.com" title="Email"><span>Email</span></a></li><li class="facebook"><a class="icon-facebook" target="_blank" href="https://www.facebook.com/wencomining/" title="Facebook"><span>Facebook</span></a></li><li class="linkedin"><a class="icon-linkedin" target="_blank" href="https://www.linkedin.com/company/wencomining" title="Linkedin"><span>Linkedin</span></a></li></ul></div><div id="contact_info-1" class="footer_widget widget widget_contact_info"><h5>Contact Info</h5><div class="with_icons style-1"><div><span class="icon icon-home"></span><div>1 Ladner street, O’Connor, WA, Australia, 6163</div></div><div><span class="icon icon-phone"></span><div>+61 8 9267 5509</div></div><div><span class="icon icon-mail-1"></span><div><a href="mailto:sales@wencomining.com">sales@wencomining.com</a></div></div></div></div></div></div></section><div class="content_row row clearfix footer_contents footer_info_bar fullwidth"><div class="content_row_wrapper fullwidth clearfix"><div class="col col-sm-12"><div class="copyright ">Copyright © Wenco.</div><ul id="footer-navigation" class="menu"><li id="menu-item-2869" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2869"><a href="#">Terms of Use</a></li>
+    </div><div id="social_media_icons-1" class="footer_widget widget widget_social_media_icons"><ul class="social_media"><li class="mail"><a class="icon-mail" target="_self" href="mailto:info@arphu.com" title="Email"><span>Email</span></a></li><li class="facebook"><a class="icon-facebook" target="_blank" href="https://www.facebook.com/wencomining/" title="Facebook"><span>Facebook</span></a></li><li class="linkedin"><a class="icon-linkedin" target="_blank" href="https://www.linkedin.com/company/13413111/" title="Linkedin"><span>Linkedin</span></a></li></ul></div><div id="contact_info-1" class="footer_widget widget widget_contact_info"><h5>Contact Info</h5><div class="with_icons style-1"><div><span class="icon icon-home"></span><div>Yangshe Town, Zhangjiagang City, Suzhou City, Jiangsu, P.R. China,215600</div></div><div><span class="icon icon-phone"></span><div>+86 17712451616</div></div><div><span class="icon icon-mail-1"></span><div><a href="mailto:info@arphu.com">info@arphu.com</a></div></div></div></div></div></div></section><div class="content_row row clearfix footer_contents footer_info_bar fullwidth"><div class="content_row_wrapper fullwidth clearfix"><div class="col col-sm-12"><div class="copyright ">Copyright © Wenco.</div><ul id="footer-navigation" class="menu"><li id="menu-item-2869" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2869"><a href="#">Terms of Use</a></li>
     <li id="menu-item-2870" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2870"><a href="#">Privacy Policy</a></li>
 </ul></div></div></div></footer><!-- / end #footer -->
 

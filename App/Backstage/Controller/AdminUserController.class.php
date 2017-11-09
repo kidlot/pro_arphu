@@ -78,7 +78,7 @@ class AdminUserController extends AdminBaseController {
             $map = [
                 'id' => $uid
             ];
-            // 修改权限
+            // 修改商品
             D('AuthGroupAccess')->deleteData(['uid' => $uid]);
             foreach ($data['group_ids'] as $v) {
                 $group = [

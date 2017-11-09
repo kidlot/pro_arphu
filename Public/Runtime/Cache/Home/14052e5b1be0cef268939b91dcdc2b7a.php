@@ -190,9 +190,9 @@
 
                 <div class="pull-right">
                     <ul class="topbar-right">
-                        <li>Operating Hours<br>Mon - Fri : From 08:00 - 17:00</li>
-                        <li>We're on Call 24/7<br>+61 8 9267 5509</li>
-                        <li>24/7 Support<br>sales@wencomining.com</li>
+                        <li>Operating Hours<br>Mon- Sat 08:30-17:30</li>
+                        <li>We're on Call 24/7<br>+8617712451616</li>
+                        <li>24/7 Support<br>info@arphu.com</li>
                     </ul>
                 </div>
             </div>
@@ -211,23 +211,26 @@
 
             <!-- logo -->
             <div id="logo" class="site-logo">
-                <a href="/" title="arphu"><img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" width="290" height="84" class="main_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" /><img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" class="sticky_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" /></a> 			</div><!-- / end #logo -->
+                <a href="/" title="arphu"><img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" width="290" height="84" class="main_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" />
+                    <img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" class="sticky_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" /></a> 			</div><!-- / end #logo -->
 
 
             <div class="header-right">
-                <nav class="main-navigation"><ul id="navigation" class="menu"><li id='menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="/mining-equipments/"><span>PRODUCTS</span></a>
+                <nav class="main-navigation"><ul id="navigation" class="menu"><li id='menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="#"><span>PRODUCTS</span></a>
                     <ul class="sub-menu">
                         <?php if(is_array($cates)): $i = 0; $__LIST__ = $cates;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><li id='menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/<?php echo ($v['cate_name']); ?>.html"><?php echo ($v['cate']); ?></a> </li><?php endforeach; endif; else: echo "" ;endif; ?>
                    </ul>
                 </li>
-                    <li id='menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/mining-projects/"><span>PROJECTS</span></a> </li>
-                    <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/about-us.html"><span>ABOUT US</span></a>
+                    <li id='menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/project.html"><span>PROJECTS</span></a> </li>
 
+                    <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-has-children"><a  href="#"><span>ABOUT US</span></a>
+                        <ul class="sub-menu">
+                            <li id='menu-item-3676' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-3632 current_page_item"><a  href="/about-us.html">ABOUT US</a> </li>
+                            <li id='menu-item-2903' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/our-team.html">OUR TEAM</a> </li>
+                            <li id='menu-item-2881' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html">CONTACT US</a> </li>
+                        </ul>
                     </li>
-                    <li id='menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/blog/"><span>BLOG</span></a> </li>
-                    <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html"><span>CONTACT US</span></a>
-
-                    </li>
+                    <li id='menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/news-center.html"><span>NEWS CENTER</span></a> </li>
                 </ul></nav>			<div id="tools">
                 <ul>
                     <li><a href="#" class="rt-search-button" title="Search"><span class="icon-search"></span></a></li>
@@ -243,22 +246,18 @@
                 <nav>
                     <ul id="mobile-navigation" class="mobile-navigation-menu"><li id='mobile-menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="http://www.wencomining.com/mining-equipments/"><span>PRODUCTS</span></a>
                         <ul class="sub-menu">
-                            <li id='mobile-menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/Conveyor-Belt-Vulcanizer.html">Conveyor Belt Vulcanizer</a> </li>
-                            <li id='mobile-menu-item-4055' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/Belt-Repair-Vulcanizer.html">Belt Repair Vulcanizer</a> </li>
-                            <li id='mobile-menu-item-4056' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/Belt-Strip-Machine-Series.html">Belt Strip Machine Series</a> </li>
-                            <li id='mobile-menu-item-4057' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/Conveyor-or-Auxiliary-Devices.html">Conveyor or Auxiliary Devices</a> </li>
+                            <?php if(is_array($cates)): $i = 0; $__LIST__ = $cates;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><li id='mobile-menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/<?php echo ($v['cate_name']); ?>.html"><?php echo ($v['cate']); ?></a> </li><?php endforeach; endif; else: echo "" ;endif; ?>
                         </ul>
                     </li>
-                        <li id='mobile-menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/mining-projects/"><span>PROJECTS</span></a> </li>
+                        <li id='mobile-menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/project.html"><span>PROJECTS</span></a> </li>
                         <li id='mobile-menu-item-2871' data-depth='0' class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a  href="#"><span>ABOUT US</span></a>
                             <ul class="sub-menu">
-                                <li id='mobile-menu-item-3676' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/our-company/">Our Company</a> </li>
-                                <li id='mobile-menu-item-2903' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/mining-team/">Mining Team</a> </li>
-                                <li id='mobile-menu-item-2881' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/contact-us/">Contact Us</a> </li>
+                                <li id='mobile-menu-item-3676' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/about-us.html">ABOUT US</a> </li>
+                                <li id='mobile-menu-item-2903' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/our-team.html">OUR TEAM</a> </li>
+                                <li id='mobile-menu-item-2881' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html">CONTACT US</a> </li>
                             </ul>
                         </li>
-                        <li id='mobile-menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/blog/"><span>BLOG</span></a> </li>
-                        <li id='mobile-menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html/"><span>CONTACT US</span></a> </li>
+                        <li id='mobile-menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/news-center.html"><span>NEWS CENTER</span></a> </li>
                     </ul>				</nav>
             </div>
 
@@ -307,22 +306,22 @@
            <div class="content_row_wrapper  fullwidth" ><div class="vc_col-sm-4 wpb_column vc_column_container">
                <div class="wpb_wrapper">
                    <div class="rt_heading_wrapper style-6">
-                       <h5 class="rt_heading  style-6" >Suzhou Office</h5>
+                       <h5 class="rt_heading  style-6" >Colombia  Office</h5>
                    </div>
                    <div  class="with_icons style-3 ">
 
                        <div  >
-                           <span class="icon-address icon"></span><div class="list-content"><p><span style="font-weight: 400;">No. 38 Shaxi Rd., Lixiang, Tangshi, Yangshe, Zhangjiagang, Suzhou City, Jiangsu, China </span></p>
+                           <span class="icon-address icon"></span><div class="list-content"><p><span style="font-weight: 400;">Calle 8 # 31-A-99 Arroyohondo</span></p>
                        </div>
                        </div>
 
                        <div  >
-                           <span class="icon-phone icon"></span><div class="list-content"><p><span style="font-weight: 400;">+86 17712451616</span></p>
+                           <span class="icon-phone icon"></span><div class="list-content"><p><span style="font-weight: 400;">+573014302872</span></p>
                        </div>
                        </div>
 
                        <div  >
-                           <span class="icon-mail-1 icon"></span><div class="list-content"><p><a href="mailto:info@arphu.com"><span style="font-weight: 400;"> info@arphu.com</span></a></p>
+                           <span class="icon-mail-1 icon"></span><div class="list-content"><p><a href="mailto:Nolberto.Maldonado@arphu.com"><span style="font-weight: 400;"> Nolberto.Maldonado@arphu.com</span></a></p>
                        </div>
                        </div>
 
@@ -334,22 +333,22 @@
                <div class="vc_col-sm-4 wpb_column vc_column_container">
                    <div class="wpb_wrapper">
                        <div class="rt_heading_wrapper style-6">
-                           <h5 class="rt_heading  style-6" >Colombia</h5>
+                           <h5 class="rt_heading  style-6" >Suzhou Arphu Industrial Co., Ltd</h5>
                        </div>
                        <div  class="with_icons style-3 ">
 
                            <div  >
-                               <span class="icon-address icon"></span><div class="list-content"><p><span style="font-weight: 400;">Adelaide</span></p>
+                               <span class="icon-address icon"></span><div class="list-content"><p><span style="font-weight: 400;">Yangshe Town, Zhangjiagang City, Suzhou City, Jiangsu, P.R. China, 215600</span></p>
                            </div>
                            </div>
 
                            <div  >
-                               <span class="icon-phone icon"></span><div class="list-content"><p><span style="font-weight: 400;">+57 3014302872</span></p>
+                               <span class="icon-phone icon"></span><div class="list-content"><p><span style="font-weight: 400;">+8617712451616</span></p>
                            </div>
                            </div>
 
                            <div  >
-                               <span class="icon-mail-1 icon"></span><div class="list-content"><p><a href="mailto:Nolberto.Maldonado@arphu.com"><span style="font-weight: 400;">Nolberto.Maldonado@arphu.com</span></a></p>
+                               <span class="icon-mail-1 icon"></span><div class="list-content"><p><a href="mailto:info@arphu.com"><span style="font-weight: 400;">info@arphu.com</span></a></p>
                            </div>
                            </div>
 
@@ -358,6 +357,32 @@
                    </div>
                </div>
 
+               <div class="vc_col-sm-4 wpb_column vc_column_container">
+                   <div class="wpb_wrapper">
+                       <div class="rt_heading_wrapper style-6">
+                           <h5 class="rt_heading  style-6" >DL Industrial Limited </h5>
+                       </div>
+                       <div  class="with_icons style-3 ">
+
+                           <div  >
+                               <span class="icon-address icon"></span><div class="list-content"><p><span style="font-weight: 400;">No. 268 Xizhang Rd., Gushan, Jiangyin City, Jiangsu, China, 214410 </span></p>
+                           </div>
+                           </div>
+
+                           <div  >
+                               <span class="icon-phone icon"></span><div class="list-content"><p><span style="font-weight: 400;">+8617712451616</span></p>
+                           </div>
+                           </div>
+
+                           <div  >
+                               <span class="icon-mail-1 icon"></span><div class="list-content"><p><a href="mailto:kevin@joint-belt.com"><span style="font-weight: 400;">kevin@joint-belt.com</span></a></p>
+                           </div>
+                           </div>
+
+                       </div>
+                       <div class="google_map_holder" data-height="300" data-scope="#map-464514" data-bw=""></div>
+                   </div>
+               </div>
 
            </div>
        </div>

@@ -190,9 +190,9 @@
 
                 <div class="pull-right">
                     <ul class="topbar-right">
-                        <li>Operating Hours<br>Mon - Fri : From 08:00 - 17:00</li>
-                        <li>We're on Call 24/7<br>+61 8 9267 5509</li>
-                        <li>24/7 Support<br>sales@wencomining.com</li>
+                        <li>Operating Hours<br>Mon- Sat 08:30-17:30</li>
+                        <li>We're on Call 24/7<br>+8617712451616</li>
+                        <li>24/7 Support<br>info@arphu.com</li>
                     </ul>
                 </div>
             </div>
@@ -211,23 +211,26 @@
 
             <!-- logo -->
             <div id="logo" class="site-logo">
-                <a href="/" title="arphu"><img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" width="290" height="84" class="main_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" /><img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" class="sticky_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" /></a> 			</div><!-- / end #logo -->
+                <a href="/" title="arphu"><img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" width="290" height="84" class="main_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" />
+                    <img src="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg" alt="Wenco" class="sticky_logo" srcset="http://www.wencomining.com/wp-content/uploads/2016/12/new_logo.jpg 1.3x" /></a> 			</div><!-- / end #logo -->
 
 
             <div class="header-right">
-                <nav class="main-navigation"><ul id="navigation" class="menu"><li id='menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="http://www.wencomining.com/mining-equipments/"><span>PRODUCTS</span></a>
+                <nav class="main-navigation"><ul id="navigation" class="menu"><li id='menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="#"><span>PRODUCTS</span></a>
                     <ul class="sub-menu">
                         <?php if(is_array($cates)): $i = 0; $__LIST__ = $cates;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><li id='menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/<?php echo ($v['cate_name']); ?>.html"><?php echo ($v['cate']); ?></a> </li><?php endforeach; endif; else: echo "" ;endif; ?>
                    </ul>
                 </li>
-                    <li id='menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/mining-projects/"><span>PROJECTS</span></a> </li>
-                    <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/about-us.html"><span>ABOUT US</span></a>
+                    <li id='menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/project.html"><span>PROJECTS</span></a> </li>
 
+                    <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-has-children"><a  href="#"><span>ABOUT US</span></a>
+                        <ul class="sub-menu">
+                            <li id='menu-item-3676' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-3632 current_page_item"><a  href="/about-us.html">ABOUT US</a> </li>
+                            <li id='menu-item-2903' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/our-team.html">OUR TEAM</a> </li>
+                            <li id='menu-item-2881' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html">CONTACT US</a> </li>
+                        </ul>
                     </li>
-                    <li id='menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/blog/"><span>BLOG</span></a> </li>
-                    <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html"><span>CONTACT US</span></a>
-
-                    </li>
+                    <li id='menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/news-center.html"><span>NEWS CENTER</span></a> </li>
                 </ul></nav>			<div id="tools">
                 <ul>
                     <li><a href="#" class="rt-search-button" title="Search"><span class="icon-search"></span></a></li>
@@ -243,22 +246,18 @@
                 <nav>
                     <ul id="mobile-navigation" class="mobile-navigation-menu"><li id='mobile-menu-item-3148' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children"><a  href="http://www.wencomining.com/mining-equipments/"><span>PRODUCTS</span></a>
                         <ul class="sub-menu">
-                            <li id='mobile-menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/conveyor-belts/">Conveyor Belts</a> </li>
-                            <li id='mobile-menu-item-4055' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/rubber-sheeting/">Rubber Sheeting</a> </li>
-                            <li id='mobile-menu-item-4056' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/wear-solutions/">Wear Solutions</a> </li>
-                            <li id='mobile-menu-item-4057' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="http://www.wencomining.com/mining-equipments/mining-hose">Mining Hose</a> </li>
+                            <?php if(is_array($cates)): $i = 0; $__LIST__ = $cates;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$v): $mod = ($i % 2 );++$i;?><li id='mobile-menu-item-4054' data-depth='1' class="menu-item menu-item-type-custom menu-item-object-custom"><a  href="/Cate/<?php echo ($v['cate_name']); ?>.html"><?php echo ($v['cate']); ?></a> </li><?php endforeach; endif; else: echo "" ;endif; ?>
                         </ul>
                     </li>
-                        <li id='mobile-menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/mining-projects/"><span>PROJECTS</span></a> </li>
-                        <li id='mobile-menu-item-4067' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/facilities/"><span>FACILITIES</span></a> </li>
+                        <li id='mobile-menu-item-4031' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/project.html"><span>PROJECTS</span></a> </li>
                         <li id='mobile-menu-item-2871' data-depth='0' class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a  href="#"><span>ABOUT US</span></a>
                             <ul class="sub-menu">
-                                <li id='mobile-menu-item-3676' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/our-company/">Our Company</a> </li>
-                                <li id='mobile-menu-item-2903' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/mining-team/">Mining Team</a> </li>
-                                <li id='mobile-menu-item-2881' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/contact-us/">Contact Us</a> </li>
+                                <li id='mobile-menu-item-3676' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/about-us.html">ABOUT US</a> </li>
+                                <li id='mobile-menu-item-2903' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/our-team.html">OUR TEAM</a> </li>
+                                <li id='mobile-menu-item-2881' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html">CONTACT US</a> </li>
                             </ul>
                         </li>
-                        <li id='mobile-menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://www.wencomining.com/blog/"><span>BLOG</span></a> </li>
+                        <li id='mobile-menu-item-4504' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/news-center.html"><span>NEWS CENTER</span></a> </li>
                     </ul>				</nav>
             </div>
 

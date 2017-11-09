@@ -19,7 +19,7 @@ class AdminBaseController extends BaseController {
 
         $result = $auth->check($rule_name, get_uid());
         if (!$result) {
-            $this->error('您没有权限访问');
+            $this->error('您没有商品访问');
         } else {
             if (!IS_POST) {
                 $AuthRule = D("AuthRule", "Model");
