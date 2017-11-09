@@ -1,0 +1,130 @@
+
+<include file="Common/header"/>
+
+
+<!-- main contents -->
+<div id="main_content">
+
+
+    <div class="content_row row sub_page_header fullwidth " style="background-image: url(http://204.93.167.131/~wencom/wp-content/uploads/2015/02/bridge.jpg);background-size: auto auto;background-position: right top;background-color: #ffffff;">
+
+        <div class="content_row_wrapper  default" ><div class="col col-sm-12"><div class="breadcrumb"><ol vocab="http://schema.org/" typeof="BreadcrumbList">
+            <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" class="icon-home" href="/"><span property="name">Home</span><meta property="position" content="1"></a> <span class="icon-angle-right"></span> </li>
+            <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" class="" href="/project.html"><span property="name">Project</span><meta property="position" content="2"></a> <span class="icon-angle-right"></span> </li>
+            <li property="itemListElement" typeof="ListItem">
+
+                <meta itemprop="name" content="{$detail['project_name']}">
+                <meta itemprop="url" content="">
+                <span property="name">{$detail['project_name']}</span>
+                <meta property="position" content="3"></li>
+        </ol>
+        </div><section class="page-title"><h1>{$detail['project_name']}</h1></section></div></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div  class="content_row row vc_row wpb_row vc_row-fluid default-style fullwidth" >
+
+        <div class="content_row_wrapper  default" >
+            <div class="vc_col-sm-12 wpb_column vc_column_container">
+                <div class="wpb_wrapper">
+                    <div class="rt_heading_wrapper style-2">
+                        <h3 class="rt_heading  style-2" >About this project</h3>
+                    </div>
+                    <div class="wpb_text_column wpb_content_element ">
+                        <div class="wpb_wrapper">
+                            {$detail['about']}
+                        </div>
+                    </div>
+                    <div class="vc_empty_space"  style="height: 32px" ><span class="vc_empty_space_inner"></span></div>
+
+                    <div id="slider-image-carousel-110449" class="rt-carousel carousel-holder clearfix rt-image-carousel " data-item-width="4" data-nav="true" data-dots="false" data-margin="" data-autoplay="true" data-timeout="2000" data-loop="false" data-tablet-item-width="1" data-mobile-item-width="1">
+                        <div class="owl-carousel">
+                            <if condition="empty($detail['pic1']) neq true" >
+                                <div><img src="{$detail['pic1']}" alt="" itemprop="image"></div>
+                            </if>
+                            <if condition="empty($detail['pic2']) neq true" >
+                                    <div><img src="{$detail['pic2']}" alt="" itemprop="image"></div>
+                            </if>
+                            <if condition="empty($detail['pic3']) neq true" >
+                                <div><img src="{$detail['pic3']}" alt="" itemprop="image"></div>
+                            </if>
+                            <if condition="empty($detail['pic4']) neq true" >
+                                <div><img src="{$detail['pic4']}" alt="" itemprop="image"></div>
+                            </if>
+                            <if condition="empty($detail['pic5']) neq true" >
+                                <div><img src="{$detail['pic5']}" alt="" itemprop="image"></div>
+                            </if>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div  class="content_row row vc_row wpb_row vc_row-fluid default-style fullwidth" >
+
+        <div class="content_row_wrapper  default" >
+            <div class="vc_col-sm-12 wpb_column vc_column_container">
+                <div class="wpb_wrapper">
+                    <div class="rt_heading_wrapper style-2">
+                        <h3 class="rt_heading  heading-font style-2" >Scope of this project</h3>
+                    </div>
+                    <div class="wpb_text_column wpb_content_element ">
+                        <div class="wpb_wrapper">
+                            <ul>
+                                <li>Supply of materials</li>
+                                <li>Fabrication</li>
+                                <li>Stress relieving</li>
+                                <li>Machining</li>
+                                <li>Blasting &amp; Painting</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div><!-- / end #main_content -->
+<include file="Common/footer"/>
+
+</body>
+</html>

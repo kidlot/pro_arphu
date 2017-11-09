@@ -1,0 +1,146 @@
+[ 2017-11-02T10:49:40+08:00 ] ::1 /mining-projects/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `arphu_cate` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `arphu_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `arphu_list` [ RunTime:0.0097s ]
+SQL: SELECT `id`,`pid`,`bid`,`url`,`type`,`title`,`name`,`keywords`,`description`,`contents` FROM `arphu_list` WHERE ( url ='mining-projects' ) LIMIT 1   [ RunTime:0.0003s ]
+ERR: Think\Controller:_empty方法不存在！
+
+[ 2017-11-02T10:50:35+08:00 ] ::1 /mining-projects/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `arphu_cate` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `arphu_cate`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `arphu_list` [ RunTime:0.0097s ]
+SQL: SELECT `id`,`pid`,`bid`,`url`,`type`,`title`,`name`,`keywords`,`description`,`contents` FROM `arphu_list` WHERE ( url ='mining-projects' ) LIMIT 1   [ RunTime:0.0003s ]
+ERR: Think\Controller:_empty方法不存在！
+
+[ 2017-11-02T10:50:38+08:00 ] ::1 /Cate/Conveyor-Belt-Vulcanizer.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `arphu_cate` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `arphu_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `arphu_product` [ RunTime:0.0105s ]
+SQL: SELECT * FROM arphu_product p INNER JOIN arphu_cate c ON c.id= p.cate_id  WHERE c.cate_name = 'Conveyor-Belt-Vulcanizer'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2017-11-02T10:58:53+08:00 ] ::1 /about-us.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `arphu_cate` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `arphu_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `arphu_list` [ RunTime:0.0114s ]
+SQL: SELECT `id`,`pid`,`bid`,`url`,`type`,`title`,`name`,`keywords`,`description`,`contents` FROM `arphu_list` WHERE ( url ='about-us' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-11-02T11:01:59+08:00 ] ::1 /about-us.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `arphu_cate` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `arphu_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `arphu_list` [ RunTime:0.0115s ]
+SQL: SELECT `id`,`pid`,`bid`,`url`,`type`,`title`,`name`,`keywords`,`description`,`contents` FROM `arphu_list` WHERE ( url ='about-us' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000528s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-11-02T11:02:15+08:00 ] ::1 /about-us.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `arphu_cate` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `arphu_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `arphu_list` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`pid`,`bid`,`url`,`type`,`title`,`name`,`keywords`,`description`,`contents` FROM `arphu_list` WHERE ( url ='about-us' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000487s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000442s ]
+
+[ 2017-11-02T11:02:43+08:00 ] ::1 /about-us.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `arphu_cate` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `arphu_cate`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `arphu_list` [ RunTime:0.0115s ]
+SQL: SELECT `id`,`pid`,`bid`,`url`,`type`,`title`,`name`,`keywords`,`description`,`contents` FROM `arphu_list` WHERE ( url ='about-us' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000393s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013737s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+

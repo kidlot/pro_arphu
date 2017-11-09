@@ -1,0 +1,123 @@
+
+<include file="Common/header"/>
+
+<!-- main contents -->
+<div id="main_content">
+
+    <div class="content_row row sub_page_header fullwidth " style="background-image: url(http://www.wencomining.com/wp-content/uploads/2015/02/bridge.jpg);background-size: auto auto;background-position: right top;">
+
+        <div class="content_row_wrapper  default" ><div class="col col-sm-12"><div class="breadcrumb"><ol vocab="http://schema.org/" typeof="BreadcrumbList">
+            <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" class="icon-home" href="/"><span property="name">Home</span><meta property="position" content="1"></a> <span class="icon-angle-right"></span> </li>
+            <li property="itemListElement" typeof="ListItem">
+
+                <meta itemprop="name" content="Projects">
+                <meta itemprop="url" content="/">
+                <span property="name">Projects</span>
+                <meta property="position" content="2"></li>
+        </ol>
+        </div><section class="page-title"><h1>Projects</h1></section></div></div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div  class="content_row row vc_row wpb_row vc_row-fluid default-style fullwidth" >
+
+        <div class="content_row_wrapper  default" >
+            <div class="vc_col-sm-12 wpb_column vc_column_container">
+                <div class="wpb_wrapper">
+                    <h2 style="text-align: left;font-family:Abril Fatface;font-weight:400;font-style:normal" class="vc_custom_heading">Projects we completed</h2>
+                    <div class="wpb_text_column wpb_content_element ">
+                        <div class="wpb_wrapper">
+                            <p>We pride ourselves supplying to many leading mining companies and delivering cost-effective mining projects through our capable and dedicated team, best-practice systems and processes, combined with the right equipment, and with particular focus on safety and operational excellence.We have proven that our ability to customise service and meet stringent industry safety requirements to meet our client’s requirements is unmatched in the industry.</p>
+
+                        </div>
+                    </div>
+                    <div class="vc_empty_space"  style="height: 32px" ><span class="vc_empty_space_inner"></span></div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div  class="content_row row vc_row wpb_row vc_row-fluid alt-style-1 fullwidth overlap" >
+
+        <div class="content_row_wrapper  fullwidth" >
+            <div class="vc_col-sm-12 wpb_column vc_column_container">
+                <div class="wpb_wrapper">
+
+                    <div class="filter-holder" data-list-id="portfolio-dynamicID-611216">
+                        <ul class="filter_navigation">
+                            <li><a href="#" data-filter="*" class="active animate" title="Show All"><span class="icon-filter"></span></a></li>
+                            <volist name="project" id = "select">
+                                <li><a data-filter=".{$select['cate_name']}-projects" title="{$select['cate_name']}">{$select['cate_name']}</a></li>
+                            </volist>
+                        </ul>
+                    </div>
+                    <div id="portfolio-dynamicID-611216" class="portfolio_list clearfix  masonry filterable" data-column-width="4">
+                        <volist name="project" id = "p">
+                            <div class="col col-sm-3  isotope-item  {$p['cate_name']}-projects">
+
+
+                                <!-- portfolio box-->
+                                <div class="loop style-1 image post-4518 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_categories-Steel-projects" id="">
+
+
+
+                                    <figure class="featured_image">
+                                        <img  itemprop="image" src="{$p['pic_url']}" alt="" class="" />
+                                        <div class="overlay"><ul class="action_buttons"><li><a id="lightbox-740107" class="zoom lightbox_" data-group="image_4536" title="Enlarge Image" data-title="{$p['cate_name']}" data-sub-html="#lightbox-740107-description" data-thumbnail="{$p['pic_url']}" data-thumbTooltip="" data-scaleUp="" data-href="/project/{$p['url']}.html" data-width="" data-height="" data-flashHasPriority="" data-poster="" data-autoplay="" data-audiotitle="" data-html="" href="/project/{$p['url']}.html" ></a>
+                                            <div class="lighbox-description hidden" id="lightbox-740107-description">
+                                                <strong>Steel industry</strong><br>
+
+                                            </div></li><li><a class="link" href="/project/{$p['url']}.html" title="{$p['project_name']}" target="_self"></a></li></ul></div>
+                                    </figure>
+
+                                    <section class="text">
+                                        <h5><a href="/project/{$p['url']}.html" target="_self" rel="bookmark">{$p['project_name']}</a></h5>
+
+                                    </section>
+
+
+                                </div>
+                                <!-- / portfolio box-->
+                            </div>
+
+
+                        </volist>
+
+                            <!-- / portfolio box-->
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div><!-- / end #main_content -->
+<include file="Common/footer"/>
+
+</body>
+</html>

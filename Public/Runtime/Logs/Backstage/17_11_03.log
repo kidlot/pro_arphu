@@ -1,0 +1,50 @@
+[ 2017-11-03T10:18:44+08:00 ] ::1 /Backstage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+NOTIC: [2048] Declaration of Backstage\Model\AdminNavModel::getTreeData() should be compatible with Backstage\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') F:\xampp\htdocs\pro_arphu\App\Backstage\Model\AdminNavModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `arphu_admin_nav` [ RunTime:0.0836s ]
+SQL: SELECT * FROM `arphu_admin_nav` ORDER BY order_number,id is null,order_number,id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `arphu_auth_group_access` [ RunTime:0.0082s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM arphu_auth_group_access a INNER JOIN arphu_auth_group g on a.group_id=g.id  WHERE ( a.uid='88' and g.status='1' )  [ RunTime:0.0277s ]
+SQL: SHOW COLUMNS FROM `arphu_auth_rule` [ RunTime:0.1021s ]
+SQL: SELECT `condition`,`name` FROM `arphu_auth_rule` WHERE `id` IN ('20','1','2','3','4','5','64','127','137','138','139','21','7','8','9','10','11','12','13','14','15','16','123','140','19','124','125','135','141') AND `type` = 1 AND `status` = 1  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000262s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001090s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2017-11-03T10:18:45+08:00 ] ::1 /Backstage/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: breadcrumbs F:\xampp\htdocs\pro_arphu\Public\Runtime\Cache\Backstage\46ebab64d8de41a45c3aeffc8c87d145.php 第 22 行.
+NOTIC: [8] Undefined variable: breadcrumbs F:\xampp\htdocs\pro_arphu\Public\Runtime\Cache\Backstage\46ebab64d8de41a45c3aeffc8c87d145.php 第 23 行.
+NOTIC: [8] Undefined variable: breadcrumbs F:\xampp\htdocs\pro_arphu\Public\Runtime\Cache\Backstage\46ebab64d8de41a45c3aeffc8c87d145.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+

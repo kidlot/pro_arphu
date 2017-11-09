@@ -1,0 +1,137 @@
+
+<include file="Common/header"/>
+
+<!-- main contents -->
+<!-- main contents -->
+<div id="main_content">
+
+
+    <div class="content_row row sub_page_header fullwidth " style="background-image: url(http://www.wencomining.com/wp-content/uploads/2015/02/bridge.jpg);background-size: auto auto;background-position: right top;">
+
+        <div class="content_row_wrapper  default" ><div class="col col-sm-12"><div class="breadcrumb"><ol vocab="http://schema.org/" typeof="BreadcrumbList">
+            <li property="itemListElement" typeof="ListItem">
+                <a property="item" typeof="WebPage" class="icon-home" href="/"><span property="name">Home</span><meta property="position" content="1"></a> <span class="icon-angle-right"></span> </li>
+            <li property="itemListElement" typeof="ListItem">
+
+                <meta itemprop="name" content="News Center">
+                <meta itemprop="url" content="/news-center.html">
+                <span property="name">News Center</span>
+                <meta property="position" content="2"></li>
+        </ol>
+        </div><section class="page-title"><h1>News Center</h1></section></div></div>
+    </div>
+
+
+
+
+
+
+
+    <div  class="content_row default-style no-composer  fullwidth"><div class="content_row_wrapper clearfix "><div class="col col-sm-12 col-xs-12 ">
+        <div class="row fixed_heights">
+            <div class="col col-sm-3 col-xs-12 sidebar left widgets_holder">
+                <div id="latest_posts_2-2" class="widget widget_latest_posts"><h5>Recent Posts</h5>
+                    <volist name="recent" id="c">
+                    <div>
+                        <img src="{$c['pic_url']}" alt="Chute Liners" class="post-thumb" />
+                        <a class="title" href="/news/{$c['url']}.html" title="{$c['title']}" rel="bookmark">{$c['title']}</a>
+                        <span class="meta">{$c['time']|date="F d,Y",###}</span>
+
+                    </div>
+                    </volist>
+
+            </div>
+
+
+            </div>
+            <div class="col col-sm-9 col-xs-12">
+
+
+
+
+
+                <div  class="content_row row vc_row wpb_row vc_row-fluid default-style fullwidth border_grid fixed_heights" >
+
+                    <div class="content_row_wrapper  default" style="padding-top:0px;padding-left:0px;padding-right:0px;">
+                        <div class="vc_col-sm-12 wpb_column vc_column_container" style="padding-right:25px;">
+                            <div class="wpb_wrapper">
+
+                                <div id="blog-dynamicID-125134" class="blog_list clearfix " data-column-width="1">
+
+                                    <volist name="news" id="n">
+                                    <!-- blog box-->
+                                    <article class="loop post-4636 post type-post status-publish format-standard has-post-thumbnail hentry category-mining-products tag-conveyor-belts tag-mining-equipment-suppliers tag-mining-equipments tag-mining-supplies tag-wear-protection" id="post-4636">
+
+
+
+                                        <figure class="featured_image featured_media">
+
+
+                                            <a id="lightbox-893729" class="featured_image" data-group="image_4349" title="" data-title="Mining Equipment Suppliers in Perth" data-sub-html="#lightbox-893729-description" data-thumbnail="{$n['pic_url']}" data-thumbTooltip="" data-scaleUp="" data-href="" data-width="" data-height="" data-flashHasPriority="" data-poster="" data-autoplay="" data-audiotitle="" data-html="" href="/news/{$n['url']}.html" ><img src="{$n['pic_url']}" alt="Chute Liners" class="" /></a>
+                                            <div class="lighbox-description hidden" id="lightbox-893729-description">
+                                                <strong>{$n['title']}</strong><br>
+
+                                            </div>				<span class="format-icon icon-pencil"></span>
+
+
+                                        </figure>
+
+
+                                        <div class="date">{$n['time']|date="F d,Y",###}</div>
+                                        <div class="text entry-content">
+
+                                            <!-- blog headline-->
+                                            <h2 class="entry-title"><a href="/news/{$n['url']}.html" rel="bookmark">{$n['title']}</a></h2>
+                                            {$n['contents']}
+                                            <!-- meta data -->
+                                            <div class="post_data">
+
+                                                <!-- user -->
+                                                <span class="icon-user user margin-right20"><a href="" title="Posts by net_admin" rel="author">net_admin</a></span>
+
+                                                <!-- categories -->
+                                                <span class="icon-flow-cascade categories"><a href="" rel="category tag">Mining Products</a></span>
+
+
+                                                <!-- comments -->
+                                                <span class="icon-chat-empty comment_link"><a href="" title="0 Comment" class="comment_link">0 Comment</a></span>
+
+                                            </div><!-- / end div  .post_data -->
+
+                                        </div>
+
+                                    </article>
+                                    </volist>
+
+                                    <!-- / blog box-->
+
+
+                                    <!-- / blog box-->
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+            </div></div>
+
+    </div></div></div>
+
+
+
+
+
+
+
+
+
+</div><!-- / end #main_content -->
+<include file="Common/footer"/>
+
+</body>
+</html>
