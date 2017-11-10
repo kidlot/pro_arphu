@@ -14,6 +14,10 @@ class IndexController extends BaseController{
      */
     public function index()
     {
+        $projects = M('Project')->where(['status'=>1])->select();
+        $news = M('News')->where(['status'=>1])->select();
+        $this->assign('projects',$projects);
+        $this->assign('news',$news);
         $this->display();
 
     }

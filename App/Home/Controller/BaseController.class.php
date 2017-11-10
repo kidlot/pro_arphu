@@ -12,6 +12,8 @@ class BaseController extends Controller {
     public function _initialize(){
         //获取后台分类
         $cates = M('Cate')->select();
+        $recent_news = M('News')->where(['status'=>1])->select();
+        $this->assign('recent_news',$recent_news);
 		$this->assign("cates", $cates);
     }
 
