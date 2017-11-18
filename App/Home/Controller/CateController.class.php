@@ -14,6 +14,7 @@ class CateController extends BaseController{
         $url=I('url');
         $list=M('product')->alias('p')->join('__CATE__ c ON c.id= p.cate_id')->where(['c.cate_name'=>$url])->select();
         $this->assign('pro_list',$list);
+        $url = str_replace('-',' ',$url);
         $this->assign('cate_name',$url);
         $this->display("Product/cate");
     }
