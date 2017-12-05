@@ -20,7 +20,7 @@
     <meta name="description" content="Wenco Pty Ltd is an Leading Mining Companies in Perth, Western Australia and specialized in mining supplies for mining industry with customized solutions for every application"/>
     <meta name="robots" content="noodp"/>
     <meta name="keywords" content="Mining Industry, Mining Division, Mining Equipment Manufacturers, Mining Equipment Suppliers, Mining Company, Wear Solution, Corrosion Resistant Solutions"/>
-    <link rel="canonical" href="http://www.wencomining.com/" />
+    <link rel="canonical" href="http://www.arphu.com/" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Mining Supplies, Mining Companies Perth, Mining in Australia" />
@@ -30,15 +30,15 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="Wenco Pty Ltd is an Leading Mining Companies in Perth, Western Australia and specialized in mining supplies for mining industry with customized solutions for every application" />
     <meta name="twitter:title" content="Mining Supplies, Mining Companies Perth, Mining in Australia" />
-    <script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/www.arphu.com\/","name":"Wenco","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.wencomining.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+
     <!-- / Yoast SEO plugin. -->
 
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
     <link rel='dns-prefetch' href='//s.w.org' />
-    <link rel="alternate" type="application/rss+xml" title="Wenco &raquo; Feed" href="http://www.wencomining.com/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="Wenco &raquo; Comments Feed" href="http://www.wencomining.com/comments/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Wenco &raquo; Feed" href="http://www.arphu.com/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Wenco &raquo; Comments Feed" href="http://www.arphu.com/comments/feed/" />
     <script type="text/javascript">
-        window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.wencomining.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.6"}};
+        window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.arphu.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.6"}};
         !function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
     </script>
     <style type="text/css">
@@ -97,7 +97,11 @@
     <link rel='shortlink' href='http://www.arphu.com/' />
     <script type="text/javascript">document.documentElement.className += " js";</script>
     <script type="text/javascript">
+
         jQuery(function($) {
+
+
+
             $('.date-pick').each(function() {
                 var format = $(this).data('format') || 'mm/dd/yyyy';
                 format = format.replace(/yyyy/i, 'yy');
@@ -126,12 +130,48 @@
                 });
 
             });
+            $("div[name='Order_Enquiry']").click(function(){
+                var arr = {};
+                arr['describe']  = $("textarea[name='describe']").val();
+                arr['first_name']  = $("input[name='first_name']").val();
+                arr['last_name']  = $("input[name='last_name']").val();
+                arr['company_name']  = $("input[name='company_name']").val();
+                arr['email']  = $("input[name='email']").val();
+                arr['phone']  = $("input[name='phone']").val();
+                if("" == arr['describe'] ){
+                    alert("Describe your project is a required field.");
+                    $("textarea[name='describe']").focus();
+                    return false;
+                }
+                if("" == arr['email'] ){
+                    alert("Email is a required field.");
+                    $("input[name='email']").focus();
+                    return false;
+                }
+
+                $.ajax({
+                    url:'{:U("Enquiry/submit_enquiry")}',
+                    type:'POST',
+                    data:arr,
+                    dataType:'json',
+                    success:function(data){
+                        if(0 == data.code){
+                            alert(data.msg);
+                            location.reload();
+                        }else {
+                            alert(data.msg);
+                        }
+
+                    }
+                });
+
+            })
 
         });
     </script>
     <link type="text/css" rel="stylesheet" href="__CSS__/mylivechat.css" />
 
-    <!--[if lt IE 9]><script src="__JS__/html5shiv.min.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="__JS__/html5shiv.min.js"></script><![endif]-->s
     <!--[if gte IE 9]> <style type="text/css"> .gradient { filter: none; } </style> <![endif]-->
 
     <!--Theme Version:2.1.1 Plugin Version:2.1.1-->
@@ -183,7 +223,7 @@
     <section class="header-top hidden-xs">
         <div class="content_row_wrapper">
             <div class="row">
-                <div class="col-md-4 pull-left"><div id="social_media_icons-header-11" class="footer_widget widget widget_social_media_icons"><ul class="social_media"><li class="facebook"><a class="icon-facebook" target="_blank" href="https://www.facebook.com/wencomining/" title="Facebook"><span>Follow Us On Facebook</span></a></li><li class="mail"><a class="icon-mail" target="_self" href="mailto:sales@wencomining.com" title="Email"><span>Email</span></a></li><li class="linkedin"><a class="icon-linkedin" target="_blank" href="https://www.linkedin.com/company/wencomining" title="Linkedin"><span>Career Opportunities</span></a></li></ul></div></div>
+                <div class="col-md-4 pull-left"><div id="social_media_icons-header-11" class="footer_widget widget widget_social_media_icons"><ul class="social_media"><li class="facebook"><a class="icon-facebook" target="_blank" href="https://www.facebook.com/" title="Facebook"><span>Follow Us On Facebook</span></a></li><li class="mail"><a class="icon-mail" target="_self" href="mailto:info@arphu.com" title="Email"><span>Email</span></a></li><li class="linkedin"><a class="icon-linkedin" target="_blank" href="https://www.linkedin.com/company/13413111/" title="Linkedin"><span>Career Opportunities</span></a></li></ul></div></div>
 
 
                 <div class="pull-right">
@@ -226,7 +266,6 @@
                     <li id='menu-item-2871' data-depth='0' class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-has-children"><a  href="#"><span>ABOUT US</span></a>
                         <ul class="sub-menu">
                             <li id='menu-item-3676' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-3632 current_page_item"><a  href="/about-us.html">ABOUT US</a> </li>
-                            <li id='menu-item-2903' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/our-team.html">OUR TEAM</a> </li>
                             <li id='menu-item-2881' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html">CONTACT US</a> </li>
                         </ul>
                     </li>
@@ -255,7 +294,6 @@
                         <li id='mobile-menu-item-2871' data-depth='0' class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a  href="#"><span>ABOUT US</span></a>
                             <ul class="sub-menu">
                                 <li id='mobile-menu-item-3676' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/about-us.html">ABOUT US</a> </li>
-                                <li id='mobile-menu-item-2903' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/our-team.html">OUR TEAM</a> </li>
                                 <li id='mobile-menu-item-2881' data-depth='1' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="/contact-us.html">CONTACT US</a> </li>
                             </ul>
                         </li>

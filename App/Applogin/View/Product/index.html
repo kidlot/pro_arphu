@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>商品管理 - bjyadmin</title>
+	<bootstrapcss />
+</head>
+<body>
+<!-- #section:basics/面包屑导航 -->
+	<include file="Index/breadcrumbs" />
+<!-- /section:basics/面包屑导航 -->
+<link rel="stylesheet" href="/Public/Default/aceadmin/kindeditor/plugins/code/prettify.css" />
+<script charset="utf-8" src="/Public/Default/aceadmin/kindeditor/kindeditor.js"></script>
+<script charset="utf-8" src="/Public/Default/aceadmin/kindeditor/lang/zh_CN.js"></script>
+<script charset="utf-8" src="/Public/Default/aceadmin/kindeditor/plugins/code/prettify.js"></script>
+<script charset="utf-8" src="/Public/Default/aceadmin/kindeditor/lang/zh_CN.js"></script>
+
+<script>
+    var editor1=null;
+    var editor2=null;
+    var editor3=null;
+    var editor4=null;
+    var editor5=null;
+    var editor6=null;
+    KindEditor.ready(function(K) {
+         editor1 = K.create('textarea[name="content1"]', {
+            cssPath : '/Public/Default/aceadmin/kindeditor/plugins/code/prettify.css',
+            uploadJson : '/Public/Default/aceadmin/kindeditor/php/upload_json.php',
+            fileManagerJson : '/Public/Default/aceadmin/kindeditor/php/file_manager_json.php',
+            allowFileManager : true,
+            filterMode : false,
+            afterCreate : function() {
+                var self = this;
+                K.ctrl(document, 13, function() {
+                    self.sync();
+                    K('form[name=example]')[0].submit();
+                });
+                K.ctrl(self.edit.doc, 13, function() {
+                    self.sync();
+                    K('form[name=example]')[0].submit();
+                });
+            }
+        });
+         editor2 = K.create('textarea[name="content2"]', {
+             cssPath : '/Public/Default/aceadmin/kindeditor/plugins/code/prettify.css',
+             uploadJson : '/Public/Default/aceadmin/kindeditor/php/upload_json.php',
+             fileManagerJson : '/Public/Default/aceadmin/kindeditor/php/file_manager_json.php',
+            allowFileManager : true,
+            filterMode : false,
+            afterCreate : function() {
+                var self = this;
+                K.ctrl(document, 13, function() {
+                    self.sync();
+                    K('form[name=example]')[0].submit();
+                });
+                K.ctrl(self.edit.doc, 13, function() {
+                    self.sync();
+                    K('form[name=example]')[0].submit();
+                });
+            }
+        });
+         editor3 = K.create('textarea[name="content3"]', {
+             cssPath : '/Public/Default/aceadmin/kindeditor/plugins/code/prettify.css',
+             uploadJson : '/Public/Default/aceadmin/kindeditor/php/upload_json.php',
+             fileManagerJson : '/Public/Default/aceadmin/kindeditor/php/file_manager_json.php',
+            allowFileManager : true,
+            filterMode : false,
+            afterCreate : function() {
+                var self = this;
+                K.ctrl(document, 13, function() {
+                    self.sync();
+                    K('form[name=example]')[0].submit();
+                });
+                K.ctrl(self.edit.doc, 13, function() {
+                    self.sync();
+                    K('form[name=example]')[0].submit();
+                });
+            }
+        });
+        editor4 = K.create('textarea[name="content4"]', {
+            cssPath : '/Public/Default/aceadmin/kindeditor/plugins/code/prettify.css',
+            uploadJson : '/Public/Default/aceadmin/kindeditor/php/upload_json.php',
+            fileManagerJson : '/Public/Default/aceadmin/kindeditor/php/file_manager_json.php',
+            allowFileManager : true,
+            filterMode : false,
+            afterCreate : function() {
+                var self = this;
+                K.ctrl(document, 13, function() {
+                    self.sync();
+                    K('form[name=example]')[0].submit();
+                });
+                K.ctrl(self.edit.doc, 13, function() {
+                    self.sync();
+                    K('form[name=example]')[0].submit();
+                });
+            }
+        });
+        editor5 = K.create('textarea[name="content5"]', {
+            cssPath : '/Public/Default/aceadmin/kindeditor/plugins/code/prettify.css',
+            uploadJson : '/Public/Default/aceadmin/kindeditor/php/upload_json.php',
+            fileManagerJson : '/Public/Default/aceadmin/kindeditor/php/file_manager_json.php',
+            allowFileManager : true,
+            filterMode : false,
+            afterCreate : function() {
+                var self = this;
+                K.ctrl(document, 13, function() {
+                    self.sync();
+                    K('form[name=example]')[0].submit();
+                });
+                K.ctrl(self.edit.doc, 13, function() {
+                    self.sync();
+                    K('form[name=example]')[0].submit();
+                });
+            }
+        });
+        editor6 = K.create('textarea[name="content6"]', {
+            cssPath : '/Public/Default/aceadmin/kindeditor/plugins/code/prettify.css',
+            uploadJson : '/Public/Default/aceadmin/kindeditor/php/upload_json.php',
+            fileManagerJson : '/Public/Default/aceadmin/kindeditor/php/file_manager_json.php',
+            allowFileManager : true,
+            filterMode : false,
+            afterCreate : function() {
+                var self = this;
+                K.ctrl(document, 13, function() {
+                    self.sync();
+                    K('form[name=example]')[0].submit();
+                });
+                K.ctrl(self.edit.doc, 13, function() {
+                    self.sync();
+                    K('form[name=example]')[0].submit();
+                });
+            }
+        });
+        prettyPrint();
+    });
+</script>
+<ul id="myTab" class="nav nav-tabs">
+   <li class="active">
+		 <a href="#home" data-toggle="tab">商品列表</a>
+   </li>
+   <li>
+		<a href="javascript:;" onclick="add()">添加商品</a>
+	</li>
+</ul>
+<div id="myTabContent" class="tab-content">
+   <div class="tab-pane fade in active" id="product">
+		<table class="table table-striped table-bordered table-hover table-condensed">
+			<tr>
+				<th>商品名</th>
+				<th>商品链接</th>
+				<th>操作</th>
+			</tr>
+			<foreach name="data" item="v">
+				<tr>
+					<td>{$v['product_name']}</td>
+					<td>{$v['url']}</td>
+					<td>
+						<textarea style="display: none" name="general_details">{$v['general_details']}</textarea>
+						<textarea style="display: none" name="technical_info">{$v['technical_info']}</textarea>
+						<textarea style="display: none" name="product_range">{$v['product_range']}</textarea>
+						<input style="display: none" name = "product_id" value="{$v['id']}"/>
+						<input style="display: none" name = "product_name" value="{$v['product_name']}"/>
+						<input style="display: none" name = "url" value="{$v['url']}"/>
+						<input style="display: none" name = "product_pic" value="{$v['product_pic']}"/>
+						<input style="display: none" name = "cate_id" value="{$v['cate_id']}"/>
+						<a href="javascript:;"  onclick="edit(this)">修改</a> |
+						<a href="javascript:if(confirm('确定删除？'))location='{:U('Product/delete',array('id'=>$v['id']))}'">删除</a>
+					</td>
+				</tr>
+			</foreach>
+		</table>
+   </div>
+</div>
+<!-- 添加商品模态框开始 -->
+<div class="modal fade" id="bjy-add" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog" style="width:900px">
+		 <div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+				<h4 class="modal-title" id="myModalLabel">
+					添加商品
+				</h4>
+			</div>
+			<div class="modal-body">
+				<form id="bjy-form" class="form-inline" action="{:U('Product/add')}" method="post">
+					<input type="hidden" name="id">
+					<table class="table table-striped table-bordered table-hover table-condensed">
+						<tr>
+							<th width="12%">商品名：</th>
+							<td>
+								<input class="form-control" type="text" name="edit_product_name" style="width: 700px;">
+							</td>
+						</tr>
+						<tr>
+							<th width="12%">商品类别：</th>
+							<td>
+								<select name="edit_cate_id">
+									<option value="1">Conveyor Belt Vulcanizer</option>
+									<option value="2">Belt Repair Vulcanizer</option>
+									<option value="3">Belt Strip Machine Series</option>
+									<option value="4">Conveyor or Auxiliary Devices</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>商品链接：</th>
+							<td>
+								<input class="form-control" type="text" name="edit_url" style="width: 700px;">
+							</td>
+						</tr>
+						<tr>
+							<th>商品图片：</th>
+							<td>
+								<img style="height: 150px;width: 150px" class="form-control" type="text" name="edit_product_pic">
+								<a href="javascript:;" class="file btn-add-cart w-20 btn-small-bottom">
+									<input type="file" name="upload_product_pic" >
+								</a>
+								<input name="edit_product_pic_url" hidden/>
+							</td>
+						</tr>
+						<tr>
+
+							<th>general_details:</th>
+							<td>
+								<textarea name="content4" style="width:700px;height:200px;visibility:hidden;"></textarea>
+							</td>
+
+						</tr>
+						<tr>
+
+							<th>technical_info:</th>
+							<td>
+								<textarea name="content5" style="width:700px;height:200px;visibility:hidden;"></textarea>
+							</td>
+
+						</tr>
+						<tr>
+
+							<th>product_range:</th>
+							<td>
+								<textarea name="content6" style="width:700px;height:200px;visibility:hidden;"></textarea>
+							</td>
+
+						</tr>
+						<tr>
+							<th></th>
+							<td>
+								<input class="btn btn-success" type="submit" value="添加">
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 添加菜单模态框结束 -->
+
+<!-- 修改菜单模态框开始 -->
+<div class="modal fade" id="bjy-edit" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog" style="width:900px">
+		 <div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+				<h4 class="modal-title" id="myModalLabel">
+					修改商品
+				</h4>
+			</div>
+			<div class="modal-body" >
+				<form id="bjy-form" class="form-inline" action="{:U('Product/edit')}" method="post">
+					<input type="hidden" name="id">
+					<table class="table table-striped table-bordered table-hover table-condensed">
+						<tr>
+							<th width="12%">商品名：</th>
+							<td>
+								<input class="form-control" type="text" name="edit_product_name" style="width: 700px;">
+							</td>
+						</tr>
+						<tr>
+							<th width="12%">商品类别：</th>
+							<td>
+								<select name="edit_cate_id">
+									<option value="1">Conveyor Belt Vulcanizer</option>
+									<option value="2">Belt Repair Vulcanizer</option>
+									<option value="3">Belt Strip Machine Series</option>
+									<option value="4">Conveyor or Auxiliary Devices</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th>商品链接：</th>
+							<td>
+								<input class="form-control" type="text" name="edit_url" style="width: 700px;">
+							</td>
+						</tr>
+						<tr>
+							<th>商品图片：</th>
+							<td>
+								<img style="height: 150px;width: 150px" class="form-control" type="text" name="edit_product_pic">
+								<a href="javascript:;" class="file btn-add-cart w-20 btn-small-bottom">
+									<input type="file" name="upload_product_pic" >
+								</a>
+								<input name="edit_product_pic_url" hidden/>
+							</td>
+						</tr>
+						<tr>
+
+							<th>general_details:</th>
+							<td>
+								<textarea name="content1" style="width:700px;height:200px;visibility:hidden;"></textarea>
+							</td>
+
+						</tr>
+						<tr>
+
+							<th>technical_info:</th>
+							<td>
+								<textarea name="content2" style="width:700px;height:200px;visibility:hidden;"></textarea>
+							</td>
+
+						</tr>
+						<tr>
+
+							<th>product_range:</th>
+							<td>
+								<textarea name="content3" style="width:700px;height:200px;visibility:hidden;"></textarea>
+							</td>
+
+						</tr>
+						<tr>
+							<th></th>
+							<td>
+								<input class="btn btn-success" type="submit" value="修改">
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 修改菜单模态框结束 -->
+<bootstrapjs />
+<script>
+// 添加菜单
+function add(){
+	$("input[name='title'],input[name='name']").val('');
+	$("input[name='pid']").val(0);
+	$('#bjy-add').modal('show');
+}
+
+// 添加子菜单
+function add_child(obj){
+	var ruleId=$(obj).attr('ruleId');
+	$("input[name='pid']").val(ruleId);
+	$("input[name='title']").val('');
+	$("input[name='name']").val('');
+	$('#bjy-add').modal('show');
+}
+
+// 修改菜单
+function edit(obj){
+	var general_details=$(obj).siblings("textarea[name='general_details']").val();
+    var technical_info=$(obj).siblings("textarea[name='technical_info']").val();
+    var product_range=$(obj).siblings("textarea[name='product_range']").val();
+    var product_name=$(obj).siblings("input[name='product_name']").val();
+    var url=$(obj).siblings("input[name='url']").val();
+    var cate_id=$(obj).siblings("input[name='cate_id']").val();
+    var product_pic=$(obj).siblings("input[name='product_pic']").val();
+    var product_id = $(obj).siblings("input[name='product_id']").val();
+    $("input[name='edit_product_name']").val(product_name);
+    $("input[name='edit_url']").val(url);
+    $("img[name='edit_product_pic']").attr('src',product_pic);
+    $("select[name='edit_cate_id']").val(cate_id);
+    $("input[name='id']").val(product_id);
+    $('input[name="edit_product_pic_url"]').val(product_pic);
+
+    editor1.html(general_details);
+    editor2.html(technical_info);
+    editor3.html(product_range);
+	$('#bjy-edit').modal('show');
+}
+$('#bjy-edit').off('shown.bs.modal').on('shown.bs.modal', function (e) {
+    $(document).off('focusin.modal');//解决编辑器弹出层文本框不能输入的问题
+});
+$('input[name="upload_product_pic"]').change(function(){
+    ajaxFileUpload();
+});
+function ajaxFileUpload(){
+    //创建FormData对象
+    var data = new FormData();
+    //为FormData对象添加数据
+
+    $.each($('input[name="upload_product_pic"]')[0].files, function(i, file) {
+        data.append('upload_file', file);
+    });
+    $.ajax({
+        url:'{:U("File/upload")}',
+        type:'POST',
+        data:data,
+		dataType:'json',
+        cache: false,
+        contentType: false,    //不可缺
+        processData: false,    //不可缺
+        success:function(data){
+            $("img[name='edit_product_pic']").attr('src',data.data);
+            $('input[name="edit_product_pic_url"]').val(data.data);
+
+        }
+    });
+}
+</script>
+
+</body>
+</html>

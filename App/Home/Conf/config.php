@@ -13,7 +13,7 @@ return [
         'product/:url'=>'Product/html',
     ),
     'TMPL_PARSE_STRING' => [
-        '__IMG__' => __ROOT__ . '/Public/Default/home/images',
+        '__IMG__' => __ROOT__ . '/Public/Default/home/upload',
         '__FONT__' => __ROOT__ . '/Public/Default/home/font',
         '__CSS__' => __ROOT__ . '/Public/Default/home/css',
         '__JS__' => __ROOT__ . '/Public/Default/home/js',

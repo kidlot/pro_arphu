@@ -19,7 +19,7 @@ function change_region(type) {
 
     $.ajax({
         type: 'POST',
-        url: '/Backstage/Region/getRegion',
+        url: '/Applogin/Region/getRegion',
         data: data,
         success: function (res) {
             if (res.status < 0) {

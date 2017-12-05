@@ -6,7 +6,7 @@ return [
     'LOAD_EXT_CONFIG' => 'wechat,db,rsa',
     'DATE_FORMAT'=>'Y-m-d H:i:s',
 //***********************************URL设置**************************************
-    'MODULE_ALLOW_LIST' => ['Home', 'Backstage', 'Login'], //允许访问列表
+    'MODULE_ALLOW_LIST' => ['Home', 'Applogin', 'Login'], //允许访问列表
     'MODULE_DENY_LIST' => ['Common'], // 禁止访问的模块列表
     'URL_MODEL' => 2, //URL模式
     'VAR_URL_PARAMS' => '', // PATHINFO URL参数变量
